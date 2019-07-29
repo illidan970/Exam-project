@@ -25,7 +25,6 @@ github_username:  Crazzert
 # Build settings
 future: true
 markdown: kramdown
-
 plugins:
   - jekyll-feed
 
@@ -45,3 +44,4 @@ exclude:
   - gulpfile.js
   - package.json
   - package-lock.json
+

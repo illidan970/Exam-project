@@ -1,5 +1,5 @@
 {
-  "name": "Radisson Hotel",
+  "name": "Radisson",
   "version": "1.0.0",
   "description": "Jekyll theme by the best HTML & CSS Course",
   "main": "gulpfile.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:illidan970/New-project.git"
+    "url": "git+https://github.com/illidan970/New-project"
   },
   "author": "",
   "license": "ISC",
@@ -23,8 +23,9 @@
     "browser-sync": "^2.26.3",
     "child_process": "^1.0.2",
     "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-exec": "^3.0.2",
+    "gulp-import-css": "^0.1.3",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
   }

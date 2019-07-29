@@ -1,5 +1,3 @@
-
-    
 "use strict";
 
 let gulp = require("gulp"),
@@ -35,6 +33,7 @@ gulp.task("watch", function() {
             baseDir: "./docs/"
 		}
 	});
+	
 
 	gulp.watch( '_assets/css/**/*.css', gulp.series('css') );
 
