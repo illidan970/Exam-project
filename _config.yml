@@ -1,3 +1,5 @@
+
+    
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -14,13 +16,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Radisson 
-email: Illidan970@abv.bg
-description: Hotel
+email: Illidan970@gmail.com
+description: "Radisson is hotel"
 destination: docs
-
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Illidan970
-github_username:  Illidan970
+twitter_username: illidan970
+github_username:  illidan970
 
 # Build settings
 future: true

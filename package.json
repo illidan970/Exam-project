@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url":"github.com:illidan970/New-project.git"
+    "url":"git+github.com:illidan970/New-project.git"
     
   },
   "author": "",
