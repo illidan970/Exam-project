@@ -40,6 +40,7 @@ gulp.task("watch", function() {
 	gulp.watch(
 		[
 			"./*.html",
+			"./_includes/*.html",
 			"./_layouts/*.html",
 			"./_posts/**/*.*"
 		]
