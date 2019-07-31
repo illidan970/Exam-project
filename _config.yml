@@ -17,7 +17,7 @@ title: Radisson
 email: Illidan970@gmail.com
 description: Radisson is hotel
 destination: docs
-baseurl: "Exam-project" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: illidan970
 github_username:  illidan970
