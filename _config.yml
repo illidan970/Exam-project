@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Radisson 
 email: Illidan970@gmail.com
-description: "Radisson is hotel"
+description: Radisson is hotel
 destination: docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
