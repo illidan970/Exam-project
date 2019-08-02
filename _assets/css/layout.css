@@ -5,7 +5,7 @@
     
 }
 body{
-     background:rgb(243, 244, 247);
+     background:rgb(225, 225, 233);
      
 }
 .welcome{
@@ -17,8 +17,7 @@ body{
     width:100%; 
     height: 50em;
     left:0;top:10%;right:0;bottom:0;
-    
-     position: absolute; 
+    position: absolute; 
   
     /* opacity: 0.8; */
 
@@ -36,7 +35,6 @@ body{
     background:#369;
     color:#fff;
     text-transform: uppercase;
-
     padding:1.3em 1em;
     text-shadow: 3px 2px 5px #1B74EC;
     
@@ -78,10 +76,9 @@ body{
     font-weight: 700;
     left:50%;
     opacity: 0.9;
-    
-   
-      transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%); 
 }
+
 
 .welcome a:hover{
     opacity:1;
@@ -91,6 +88,7 @@ body{
     /* transition-delay: 0.02s; */
     font-weight: 800;
 }
+
 
 
 .history{
@@ -129,7 +127,7 @@ body{
     background:#4d8eff;
     color:#fff;
     border-radius:3px;
-    line-height: 2;
+    line-height: 3;
     font-weight: 600;
     font-size: 17px;
 }
@@ -164,8 +162,106 @@ body{
 
 .pic1 img{
     
-
     width:1100px;
-
     height: auto;
+
+}
+
+
+
+.deluxe{
+position: absolute;
+text-align: center;
+width:40em;
+top:300%;
+left:50%;
+padding:1em;
+height: 15em;
+line-height: 1.5;
+transform: translate(-50%,-50%);
+
+
+}
+
+.deluxe h1{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    padding:0.5em;
+
+}
+
+.deluxe p{
+margin:0.4em;
+
+letter-spacing: 0.1em;
+font-size: 18px;
+opacity: 0.8;
+
+}
+
+.extras{
+    position:absolute;
+    top:320%;
+    display:column;
+    width:30em;
+  
+    line-height: 1.5;
+   
+
+}
+
+.extras h2:nth-child(1){
+    color:red;
+}
+
+
+.extras h2{
+    letter-spacing: 0.2em;
+    padding:0.5em;
+    color:#294066;
+}
+
+.extras p{
+    padding:0.5em;
+    opacity: 0.8;
+    /* color:#294066; */
+}
+
+.extras li{
+    margin:2em;
+    font-size: 20px;
+    color:#294066;
+    /* list-style: none; */
+    letter-spacing: 0.1em;
+}
+
+.img1 img{
+position: absolute;
+left:120%;
+top:0%;
+}
+
+.extras a{
+    position: relative;
+    left:40%;
+    padding:0.5em 1.5em;
+    background:#1B74EC;
+    color:#fff;
+    font-weight: 600;
+}
+
+.extras a:hover{
+    color:#4d8eff;
+    border:1px solid #4d8eff;
+    background:#fff;
+    font-weight: 600;
+    transition-delay: 0.1s;
+    transition: 0.5s;
+
+}
+
+footer{
+    background:#4d8eff;
+    color:#fff;
 }
