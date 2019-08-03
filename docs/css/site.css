@@ -1,7 +1,7 @@
 @import url('typography.css');
 @import url('navigation.css');
-@import url('layout.css');
-
+@import url('main.css');
+@import url('about.css');
 
 *,*:before,*:after{
     padding:0;

@@ -1,13 +1,11 @@
 .board{
-    width:85rem;
-    height:150rem;
+    width:87rem;
+    /* height:150rem; */
+    height: auto;
     margin:0 auto;
     
 }
-body{
-     background:rgb(225, 225, 233);
-     
-}
+
 .welcome{
    
    background:url('../banner1.jpg') center; 

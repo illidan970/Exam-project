@@ -1,8 +1,9 @@
 
 .header h1{
-    text-shadow: 4px 2px 0px #29BDCE;
+    text-shadow: 2px 1px 2px #29BDCE;
     letter-spacing: 0.3em;
-    font-size: 45px;
+    font-size: 48px;
+    
 /* margin-left:0.3em; */
 }
 .header  a {
@@ -14,10 +15,10 @@ color:#4d8eff;
     color:#4d8eff;
     font-family: 'Satisfy', cursive;
     letter-spacing: 0.3em;
-    font-size: 13px;
+    font-size: 12px;
     position: absolute;
     top:9%;
-    left:18%;
+    left:17%;
     text-shadow: 1px 0px 0px #29BDCE;
 
 }
@@ -28,6 +29,8 @@ color:#4d8eff;
     font-size: 18px;
     align-items: center;
     padding-top:0.8em;
+    letter-spacing: 0.1em;
+    margin-left:auto;
 
     
     
@@ -36,6 +39,10 @@ color:#4d8eff;
     display:flex;
     margin-top:1em;
     color:#369;
+    padding-right:2em;
+    background:#fff;
+    
+
     
 }
 
@@ -43,24 +50,26 @@ color:#4d8eff;
 
 .nav ul{
     display:flex;
-    margin-left: 17em;
+    margin-right: 4em;
+    flex:0 0 8em;
     
 
 }
 
 .nav li{
+    /* padding-left:5em; */
+    
     display:flex;
-    flex:0 0 8em;
+    
     font-weight: 600;
-    
-    
+   
     
 }
 
 .nav a{
     display:block;
     color:#4d8eff;
-    padding:0.5em 1em;
+    padding:0.7em 1.5em;
 }
 
 a{
@@ -69,9 +78,9 @@ a{
 
 nav a:hover{
     background:#4d8eff;
-    transition: 0.1s ease-in-out;
+    transition: 0.2s ease-in-out;
     color:#fff;
-    padding:0.7em 1.2em;
+    padding:0.7em 1.5em;
     border:1px transparent #4d8eff;
     border-radius: 5px;
 }

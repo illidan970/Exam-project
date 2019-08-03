@@ -1,8 +1,46 @@
 ---
-layout: main
+layout: about
 title: About
 permalink: /about/
 ---
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+        <title>Document</title>
+    </head>
+    <body>
+ <div class="about">
+
+     <header class="header">
+           
+    <a href="main.html"><h1>Radisson</h1></a>
+
+        <p>HOTEL & SPA</p>
+            
+        <nav class="nav">
+
+        {% for page in site.pages %}
+         {% if page.title %}
+
+     <ul>
+
+    <li><a href="{{page.url}}">{{ page.title }}</a></li>
+            
+         </ul>
+     {% endif %}
+    {% endfor %}
+     </nav>
+            
+     </header>
+    
 
 
+        </div>
+        
+    </body>
+    </html>
