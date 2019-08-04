@@ -12,21 +12,13 @@
     <div class="board">
 
         <header class="header">
-            
-            <a href="#"><h1>Radisson</h1></a>
+           
+            <a href="/"><h1>Radisson</h1></a>
             <p>HOTEL & SPA</p>
 
-     <nav class="nav">
-    {% for page in site.pages %}
-     {% if page.title %}
-         <ul>
- <li><a href="{{page.url}}">{{ page.title }}</a></li>
-
-        </ul>
-    {% endif %}
-   {% endfor %}
-        </nav>
-
+            {% include navigation.html %}
+            
+     
         </header>
 
 
