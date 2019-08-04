@@ -1,6 +1,29 @@
+
+
+
 .about{
     width:87rem;
-    background:red;
-    height: auto;
+    background:#f3dada;
+    height: 50rem;
     margin:0 auto;
+    
+}
+
+.main1 {
+    
+    
+}
+.main1 ul{
+    
+    width:25em;
+}
+
+.businessman{
+    position: absolute;
+    top:3%;
+    left:50%;
+}
+
+.businessman img{
+    position: absolute;
 }
