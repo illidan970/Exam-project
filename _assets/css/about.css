@@ -74,8 +74,8 @@
     
     content: '';
     position: relative;
-    width: 3em;
-    padding-top:0.7em
+    width:3em;
+    padding-top:0.7em;
     display: block;
     left:50%;
     transform:translate(-50%,-50%);
