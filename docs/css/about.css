@@ -8,6 +8,7 @@
 
 .main1{
     margin-top:8em;
+    padding-top:5em;
     line-height: 1.8;
 }
 
@@ -65,9 +66,23 @@
 .article1 h2{
     /* text-align: center; */
     padding-top:5em;
-    margin-right:10em;
+    margin-right:13em;
     /* line-height: 2; */
 }
+
+.article1 h2:after{
+    
+    content: '';
+    position: relative;
+    width: 3em;
+    display: block;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 3px;
+    background-color:red;
+ 
+}
+
 
 .article1 p{
     max-width:55em;
@@ -78,13 +93,13 @@
 
 .article1 {
     letter-spacing: 0.1em;
-    
+    padding-top:4em;
 text-align: center;
 margin-left: 15em;
 }
 
 .contact1{
-    padding-top:2em;
+    padding-top:4em;
     margin-top:10em;
 }
 
