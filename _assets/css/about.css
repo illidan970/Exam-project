@@ -28,14 +28,16 @@
 
 .businessman{
     position: absolute;
-    top:5%;
+    top:3%;
     left:52%;
+    max-width: 40em;
+    width:100%;
 }
 
 .businessman img{
     position: absolute;
     border:2px solid #FFF;
-    
+    height: 100%;
     max-width:40em;
     width:100%;
 }
