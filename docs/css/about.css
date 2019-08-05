@@ -65,7 +65,7 @@
 
 .article1 h2{
     /* text-align: center; */
-    padding-top:5em;
+    padding-top:4em;
     margin-right:14em;
     /* line-height: 2; */
 }
@@ -99,7 +99,7 @@ margin-left: 15em;
 }
 
 .contact1{
-    padding-top:4em;
+    padding-top:6em;
     margin-top:10em;
 }
 
@@ -131,18 +131,3 @@ position: relative;
     
 }
 
-
-.footer1{
-    
-    background:#4d8eff;
-    color:#fff;
-    /* position: absolute; */
-    /* top:450%; */
-    width:89.3em;
-    text-align: center;
-    letter-spacing: 0.3em;
-    font-size: 17px;
-    padding:1em;
-    margin:0 auto;
-    font-weight: 600;
-}
