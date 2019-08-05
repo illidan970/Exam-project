@@ -21,6 +21,9 @@
     
  
 }
+.contacts3{
+    padding-top:4em;
+}
 
 .infos{
     padding-top:0.5em;
@@ -75,6 +78,7 @@ label{
 input{
     padding:0.7em 20em;
     margin-top:2em;
+    padding-top: 2em;
 }
 
 select{
@@ -99,6 +103,7 @@ select{
 #submit:hover{
     background:#4d8eff;
     color:#FFF;   
+    cursor: pointer;
     transition-delay: 0.1s;
     transition: 0.5s;
 }
