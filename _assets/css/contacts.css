@@ -36,7 +36,7 @@
     /* width:100%; */
     height: 100%;
     position: absolute;
-    left:38%;
+    left:45%;
     top:23%;
 }
 
@@ -94,4 +94,11 @@ select{
     font-size:17px;
     padding:1em;
     text-align: center;
+}
+
+#submit:hover{
+    background:#4d8eff;
+    color:#FFF;   
+    transition-delay: 0.1s;
+    transition: 0.5s;
 }
