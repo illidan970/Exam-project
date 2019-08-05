@@ -1,0 +1,87 @@
+.contacts2{
+    max-width: 75rem;
+    margin:0 auto;
+
+}
+
+.contacts3 p:after{
+
+    content: '';
+    position: relative;
+    width:30em;
+    margin-top:1em;
+    /* padding-top:0.7em; */
+    display: block;
+    left:19%;
+    transform:translate(-50%,-50%);
+    background-color:red;
+    height: 2px;
+    
+ 
+}
+
+.infos{
+    padding-top:0.5em;
+}
+
+.infos li{
+    list-style: none outside;
+}
+
+.talking{
+    
+    max-width: 70em;
+    /* width:100%; */
+    height: 100%;
+    position: absolute;
+    left:38%;
+    top:23%;
+}
+
+.talking img{
+    
+    max-width:55em;
+    width:100%;
+    position: relative;
+    border:2px solid #FFF;
+
+}
+
+form{
+    text-align: center;
+    padding-top:10em;
+    margin:1em;
+    
+}
+
+
+label{
+    font-size:20px;
+    padding-top:2em;
+}
+
+#email{
+    padding:0.7em 21.2em;
+}
+
+#Phone{
+    padding:0.7em 21.5em; 
+
+}
+
+
+input{
+    padding:0.7em 20em;
+    margin-top:2em;
+}
+
+select{
+    text-align: start;
+    padding:0.5em 1em;
+    font-size:17px;
+
+}
+
+#submit{
+    padding:0.5em 4em;
+}

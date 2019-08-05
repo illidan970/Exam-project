@@ -48,7 +48,7 @@
 
 .woman{
     max-width: 70em;
-    width:100%;
+    /* width:100%; */
    
     position: absolute;
     left:52%;

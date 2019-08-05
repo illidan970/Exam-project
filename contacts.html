@@ -3,3 +3,143 @@ title: Contacts
 permalink: /contacts/
 ---
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <div class="contacts2">
+
+            <header class="header">
+           
+                    <a href="{{site.baseurl}}"><h1>Radisson</h1></a>
+                    <p>HOTEL & SPA</p>
+        
+                    {% include navigation.html %}
+                    
+             
+                </header>
+
+
+
+
+    <section class="contacts3">
+    <header>
+
+    <h1>CONTACT US</h1>
+    <p>RADISSON HOTEL CORPORATE OFFICES</p>
+
+    </header>
+
+
+</section>
+<section class="infos">
+<h4>Europe, Middle East and Africa</h4>
+
+ <ul>
+     <li>Avenue du Bourget 44</li>
+     <li>B-1130 Brussels</li>
+     <li>Shanghai 200052</li>
+     <li>Belgium</li>
+     <li>T: +32 2 702-9200 </li>
+ </ul>
+</section>
+
+
+<section class="infos">
+
+       <h4>Americas</h4>
+       <ul>
+           <li>701 Carlson Parkway</li>
+           <li>Minnetonka, MN 55305</li>
+           <li>U.S.A.</li>
+           <li>T: +1 (763) 212-5000</li>
+       </ul>
+
+   </section>
+
+   <section class="infos">
+
+   <h4>Asia Pacific</h4>
+   <ul>
+       <li>3 HarbourFront Place</li>
+       <li>#08-01/02 HarbourFront Tower 2</li>
+       <li>Singapore 099254</li>
+       <li>T: +65 6511 9266</li>
+   </ul>
+</section>
+
+<section class="infos">
+
+      <h4>Unit 1601, Cloud Nine Plaza</h4>
+
+       <ul>
+
+
+           <li>1118 Yan’an West Road</li>
+           <li>Changing District</li>
+           <li>Shanghai 200052</li>
+           <li>P.R. China</li>
+           <li>T: +86 21 2230 1000 </li>
+
+
+       </ul>
+   </section>
+<div class="talking">
+
+    <img src="talking.jpg" alt="">
+
+</div>
+
+<form action="/action_page.php">
+    <p><label for="First name">First Name:
+     <input type="text" name="firstname" id="First Name" value="" placeholder="First Name"></p>
+    </label>
+
+    <p><label for="Last name">Last Name:
+        <input type="text" name="Last name" id="Last name" value="" placeholder="Last Name"></p>
+        </label>
+
+        <label>
+
+     E-mail:     
+            <input type="email" name="emailaddress" id="email" value="" placeholder="Example@gmail.com"></p> 
+
+    </label>
+
+    <p><label for="Phone">Phone:
+        <input type="text" id="Phone" name="Phone" value="" placeholder="+359885236225"></p>
+          </label>
+
+
+          <label for="Region">REGION OF INTEREST :
+       <p>   <select>
+<option value="Choose one">Choose one</option>
+<option value="Europe, Middle East and Africa">Europe, Middle East and Africa</option>
+<option value="Americas">Americas</option>
+<option value="Asia Pacific">Asia Pacific</option>
+
+          </select></p>
+</label>
+
+
+    
+<textarea name="Message" id="Message"placeholder="Message..." cols="75" rows="15"></textarea> 
+</p>
+
+<label for="checkbox">
+        <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+        <label for="checkbox_id">I agree with Terms and Conditions</label> 
+</label>
+
+<p> <input type="submit" value="Submit" id="submit"> </p>
+
+    </form>
+   
+    </section>
