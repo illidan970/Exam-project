@@ -1,6 +1,7 @@
 .contacts2{
     max-width: 75rem;
     margin:0 auto;
+    padding-top:7em;
 
 }
 
@@ -49,7 +50,7 @@
 
 form{
     text-align: center;
-    padding-top:10em;
+    padding-top:5em;
     margin:1em;
     
 }
@@ -84,4 +85,10 @@ select{
 
 #submit{
     padding:0.5em 4em;
+}
+
+.footer3{
+    background:#4d8eff;
+    color:#fff;
+    font-size:17px;
 }
