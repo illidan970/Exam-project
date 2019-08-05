@@ -121,12 +121,12 @@ position: relative;
 }
 
 .hotel2 img{
-    max-width: 40em;
+    max-width: 50em;
     width:100%;
     height: auto;
     position: absolute;
-    left:70%;
-    top:5%
+    left:65%;
+    top:0%
     
 }
 
