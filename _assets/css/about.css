@@ -8,6 +8,7 @@
 
 .main1{
     margin-top:8em;
+    padding-top:5em;
     line-height: 1.8;
 }
 
@@ -69,6 +70,20 @@
     /* line-height: 2; */
 }
 
+.article1 h2:after{
+    
+    content: '';
+    position: relative;
+    width: 3em;
+    display: block;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 3px;
+    background-color:red;
+ 
+}
+
+
 .article1 p{
     max-width:55em;
     padding-top:0.5em;
@@ -84,7 +99,7 @@ margin-left: 15em;
 }
 
 .contact1{
-    padding-top:2em;
+    padding-top:4em;
     margin-top:10em;
 }
 
