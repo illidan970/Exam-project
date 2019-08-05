@@ -1,0 +1,44 @@
+
+
+.blog{
+    width:87rem;
+    margin:0 auto;
+    line-height: 1.5;
+
+}
+
+
+
+.posts{
+    padding-top:4em;
+
+}
+
+.posts article{
+    padding-top:2em;
+}
+
+
+.blog ol,ul{
+    padding:2em;
+}
+
+.blog h3,h2,h4,p,img{ 
+    padding:0.5em;
+}
+
+.author{
+    background-image: linear-gradient(to right top, #88c5a0, #94c39b, #9fc098, #a8bd96, #afbb96);
+    max-width:55em;
+    padding:1em;
+    margin-left:7em;
+    margin-bottom: 5em;
+    margin-top:2em;
+    display:flex;
+    
+
+}
+
+.author h5{
+margin-left:0.8em;
+}
