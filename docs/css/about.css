@@ -43,6 +43,8 @@
     border:2px solid #FFF;
     height: 100%;
     max-width:40em;
+    top:16%;
+left:45%;
     
 }
 
@@ -139,12 +141,13 @@ position: relative;
     background:#4d8eff;
     color:#fff;
     position: absolute;
-    top:80%;
+    top:180%;
     /* width:89.3em; */
     text-align: center;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding:1em;
+    width:86em;
     margin:0 auto;
     font-weight: 600;
 }
