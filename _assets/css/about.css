@@ -3,15 +3,12 @@
     max-width: 100%;
     height: auto;
     margin:0 auto;
-    line-height: 1.8;
-    /* padding:3em; */
-    font-family: Verdana,serif;
-    /* background: rgba(247, 244, 244, 0.959); */
     
 }
 
 .main1{
     margin-top:3em;
+    line-height: 1.8;
 }
 
 
@@ -90,6 +87,7 @@ margin-left: 15em;
     padding-top:2em;
     margin-top:10em;
 }
+
 
 .contact1 li{
     list-style: none outside;
