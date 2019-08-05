@@ -67,7 +67,7 @@
 .article1 h2{
     /* text-align: center; */
     padding-top:5em;
-    margin-right:14em;
+    margin-right:13em;
     /* line-height: 2; */
 }
 
@@ -75,9 +75,9 @@
     
     content: '';
     position: relative;
-    width:3em;
-    margin-top:0.5em;
-    padding-top:0.7em;
+    width:5em;
+    margin-top:0.7em;
+    /* padding-top:0.7em; */
     display: block;
     left:50%;
     transform:translate(-50%,-50%);
