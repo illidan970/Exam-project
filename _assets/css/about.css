@@ -30,15 +30,9 @@
     font-weight: 500;   
 }
 
-.businessman{
-    position: absolute;
-    top:-50%;
-    left:52%;
-    max-width: 40em;
-    width:100%;
-}
 
-.board img{
+
+.pic4 img{
     position: absolute;
     border:2px solid #FFF;
     height: 100%;
@@ -147,7 +141,7 @@ position: relative;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding:1em;
-    width:86em;
+    width:89em;
     margin:0 auto;
     font-weight: 600;
 }
