@@ -113,8 +113,8 @@ margin-left: 15em;
 .hotel2 {
 max-width: 52em;
 width:100%;
-bottom:15%;
-left:10%;
+/* bottom:15%; */
+left:5%;
 position: relative;
 
 
@@ -125,7 +125,7 @@ position: relative;
     width:100%;
     height: auto;
     position: absolute;
-    left:65%;
+    left:55%;
     top:0%
     
 }
