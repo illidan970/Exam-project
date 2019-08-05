@@ -3,7 +3,7 @@
     height: auto;
     margin:0 auto;
     /* line-height: 1.8; */
-    padding:3em;
+    /* padding:3em; */
     font-family: Verdana,serif;
     /* background: rgba(247, 244, 244, 0.959); */
     
@@ -28,7 +28,7 @@
 
 .businessman{
     position: absolute;
-    top:3%;
+    top:0%;
     left:52%;
     max-width: 40em;
     width:100%;
@@ -39,7 +39,7 @@
     border:2px solid #FFF;
     height: 100%;
     max-width:40em;
-    width:100%;
+    
 }
 
 .woman{
