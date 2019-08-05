@@ -35,6 +35,9 @@
 .businessman img{
     position: absolute;
     border:2px solid #FFF;
+    
+    max-width:40em;
+    width:100%;
 }
 
 .woman{
