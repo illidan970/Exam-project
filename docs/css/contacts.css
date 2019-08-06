@@ -23,10 +23,11 @@
  
 }
 .contacts3 h1{
-    padding-top:2em;
+    position: absolute;
+    top:15%;
 }
 .contacts3{
-    /* padding-top:5.5em; */
+    /*
 }
 
 .infos{
@@ -103,7 +104,7 @@ select{
     background:#4d8eff;
     color:#fff;
      position: absolute;
-    top:100%; 
+    top:230%; 
     width:89.3em;
     text-align: center;
     letter-spacing: 0.3em;
