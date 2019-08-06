@@ -407,6 +407,9 @@ nav a:hover {
   left: 8%;
   top: 0%; }
 
+.pic5 {
+  padding: 0.5em; }
+
 .footer2 {
   background: #4d8eff;
   color: #fff;
@@ -416,7 +419,7 @@ nav a:hover {
   text-align: center;
   letter-spacing: 0.3em;
   font-size: 17px;
-  padding: 0.5em;
+  padding: 1em;
   width: 89em;
   margin: 0 auto;
   font-weight: 600; }
@@ -517,7 +520,7 @@ select {
   text-align: center;
   letter-spacing: 0.3em;
   font-size: 17px;
-  padding: 0.5em;
+  padding: 1em;
   width: 89.3em;
   position: absolute;
   top: 110%;
@@ -562,7 +565,7 @@ select {
   display: flex; }
 
 .author1 h5 {
-  margin-left: 0.8em; }
+  margin-left: 1.2em; }
 
 .author1 h4, p {
   margin-left: 1em; }
@@ -572,7 +575,7 @@ select {
   color: #fff;
   position: absolute;
   top: 420%;
-  padding: 0.5em;
+  padding: 1em;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
@@ -614,7 +617,7 @@ select {
     text-align: center;
     letter-spacing: 0.3em;
     font-size: 17px;
-    padding: 0.5em;
+    padding: 1em;
     margin: 0 auto;
     font-weight: 600; }
 
