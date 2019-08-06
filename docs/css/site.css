@@ -515,8 +515,8 @@ select {
   margin: 0 auto;
   line-height: 1.5;
   position: absolute;
-  top: 25%;
-  left: 30%; }
+  top: 15%;
+  left: 15%; }
 
 .posts {
   padding-top: 4em; }
@@ -545,8 +545,8 @@ select {
 .footer3 {
   background: #4d8eff;
   color: #fff;
-  /* position: absolute;
-    top:100%;  */
+  position: absolute;
+  top: 230%;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
