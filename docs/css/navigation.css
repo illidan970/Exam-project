@@ -1,87 +1,62 @@
+.header h1 {
+  text-shadow: 2px 1px 2px #29BDCE;
+  letter-spacing: 0.3em;
+  font-size: 48px;
+  /* font-family: 'Satisfy', cursive; */
+  /* margin-left:0.3em; */ }
 
-.header h1{
-    text-shadow: 2px 1px 2px #29BDCE;
-    letter-spacing: 0.3em;
-    font-size: 48px;
-    /* font-family: 'Satisfy', cursive; */
-    
-    
-/* margin-left:0.3em; */
-}
-.header  a {
-color:#4d8eff;
+.header a {
+  color: #4d8eff; }
 
-}
-.header p{
-    width:12em;
-    color:#4d8eff;
-    font-family: 'Satisfy', cursive;
-    letter-spacing: 0.3em;
-    font-size: 13px;
-    position: absolute;
-    top:10%;
-    left:16%;
-    text-shadow: 1px 0px 0px #29BDCE;
-
-}
-
+.header p {
+  width: 12em;
+  color: #4d8eff;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 0.3em;
+  font-size: 13px;
+  position: absolute;
+  top: 10%;
+  left: 16%;
+  text-shadow: 1px 0px 0px #29BDCE; }
 
 .nav {
-    display:flex;
-    font-size: 18px;
-    /* align-items: center; */
-    padding-bottom:6em;
-    margin-bottom:5em;
-    letter-spacing: 0.1em;
-    margin-left:20em;
- 
-    display: flex;
-    
-    
-}
-.header{
-    max-width:87em;
-    display:flex;
-    margin:1rem auto;
-    color:#369;
-    background:#fff;
-    
+  display: flex;
+  font-size: 18px;
+  /* align-items: center; */
+  padding-bottom: 6em;
+  margin-bottom: 5em;
+  letter-spacing: 0.1em;
+  margin-left: 20em;
+  display: flex; }
 
-    
-}
+.header {
+  max-width: 87em;
+  display: flex;
+  margin: 1rem auto;
+  color: #369;
+  background: #fff; }
 
+.nav ul {
+  display: flex; }
 
+.nav li {
+  display: flex;
+  font-size: 18px;
+  padding-left: 0.3em;
+  font-weight: 600; }
 
-.nav ul{
-    display:flex;
-    
+.nav a {
+  display: block;
+  color: #4d8eff;
+  padding: 0.7em 1.5em; }
 
-}
+a {
+  text-decoration: none; }
 
-.nav li{
-    display:flex;
-    font-size:18px;
-    padding-left:0.3em;
-    font-weight: 600;
-   
-    
-}
-
-.nav a{
-    display:block;
-    color:#4d8eff;
-    padding:0.7em 1.5em;
-}
-
-a{
-    text-decoration: none;
-}
-
-nav a:hover{
-    background:#4d8eff;
-    transition: 0.2s ease-in-out;
-    color:#fff;
-    padding:0.7em 1.5em;
-    border:1px transparent #4d8eff;
-    border-radius: 5px;
-}
+nav a:hover {
+  background: #4d8eff;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border: 1px transparent #4d8eff;
+  border-radius: 5px; }
