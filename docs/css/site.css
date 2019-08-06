@@ -405,7 +405,7 @@ nav a:hover {
   max-width: 45em;
   height: auto;
   position: relative;
-  left: 5%;
+  left: 8%;
   top: 0%; }
 
 .footer2 {
@@ -464,7 +464,7 @@ nav a:hover {
   /* width:100%;  */
   height: auto;
   position: absolute;
-  left: 57%;
+  left: 61%;
   top: 5%; }
 
 .talking img {
@@ -478,7 +478,7 @@ nav a:hover {
   max-width: 60em;
   height: auto;
   position: absolute;
-  left: 57%;
+  left: 61%;
   top: 28%; }
 
 .talking2 img {
@@ -579,8 +579,6 @@ select {
 .gallery2 {
   position: absolute;
   top: 20%;
-  left: 10%;
-  width: 80rem;
   background: #FDD7ED;
   margin: 0 auto;
   max-width: 100%;
@@ -607,7 +605,7 @@ select {
     background: #4d8eff;
     color: #fff;
     position: absolute;
-    top: 120%;
+    top: 100%;
     width: 89.3em;
     text-align: center;
     letter-spacing: 0.3em;
