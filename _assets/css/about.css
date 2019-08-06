@@ -126,7 +126,7 @@ position: relative;
     height: auto;
     position: absolute;
     left:55%;
-    top:0%
+    top:80%
     
 }
 
@@ -134,8 +134,8 @@ position: relative;
     
     background:#4d8eff;
     color:#fff;
-    /* position: absolute;
-    top:325%; */
+     position: absolute;
+    top:325%; 
     width:89.3em;
     text-align: center;
     letter-spacing: 0.3em;

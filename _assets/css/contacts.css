@@ -1,7 +1,8 @@
 .contacts2{
     max-width: 80rem;
     margin:0 auto;
-    height: 100rem;
+    height: 80rem;
+
     /* padding-top:7em; */
 
 }
@@ -25,7 +26,7 @@
     padding-top:2em;
 }
 .contacts3{
-    padding-top:5.5em;
+    /* padding-top:5.5em; */
 }
 
 .infos{
