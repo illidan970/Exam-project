@@ -553,6 +553,9 @@ select {
   font-weight: 600; }
 
 .gallery2 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
   width: 80rem;
   background: #FDD7ED;
   margin: 0 auto;
