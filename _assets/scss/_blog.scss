@@ -6,7 +6,7 @@
     line-height: 1.5;
     position: absolute;
     top:15%;
-    left:15%;
+    padding-top:1em;
 
 }
 
@@ -27,8 +27,9 @@
 }
 
 .blog h3,h2,h4,p,img{ 
-    padding:0.5em;
+    padding-top:1.5em;
 }
+
 
 .author{
     background-image: linear-gradient(to right top, #88c5a0, #94c39b, #9fc098, #a8bd96, #afbb96);
@@ -42,9 +43,11 @@
 
 }
 
+
 .author h5{
 margin-left:0.8em;
 }
+
 
 .footer3{
     
