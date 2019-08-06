@@ -308,7 +308,7 @@ nav a:hover {
   height: auto;
   margin: 0 auto;
   position: absolute;
-  top: 15%; }
+  top: 23%; }
 
 .main1 {
   line-height: 1.8;
@@ -332,15 +332,15 @@ nav a:hover {
   border: 2px solid #FFF;
   height: auto;
   max-width: 25em;
-  top: 10%;
-  right: 15%; }
+  top: 5%;
+  right: 25%; }
 
 .woman {
   /* max-width: 70em;
     /* width:100%; */
   position: absolute;
   left: 52%;
-  top: 40%; }
+  top: 25%; }
 
 .woman img {
   max-width: 35em;
@@ -380,7 +380,8 @@ nav a:hover {
 
 .contact1 {
   padding-top: 6em;
-  margin-top: 10em; }
+  margin-top: 10em;
+  margin-left: 5em; }
 
 .contact1 li {
   list-style: none outside;
@@ -393,7 +394,7 @@ nav a:hover {
   /* left:5%; */
   position: absolute;
   left: 45%;
-  top: 70%; }
+  top: 84%; }
 
 .hotel2 img {
   max-width: 50em;
@@ -408,7 +409,7 @@ nav a:hover {
   background: #4d8eff;
   color: #fff;
   position: absolute;
-  top: 377%;
+  top: 320%;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
