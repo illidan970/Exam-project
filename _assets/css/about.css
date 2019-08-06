@@ -125,6 +125,7 @@ top:80%
 .hotel2 img{
     max-width: 50em;
     width:100%;
+    max-width:45em;
     height: auto;
     position: absolute;
     left:55%;
