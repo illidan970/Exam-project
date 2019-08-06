@@ -332,13 +332,13 @@ nav a:hover {
   height: auto;
   max-width: 25em;
   top: 5%;
-  right: 15%; }
+  right: 12%; }
 
 .woman {
   /* max-width: 70em;
     /* width:100%; */
   position: absolute;
-  left: 52%;
+  left: 55%;
   top: 25%; }
 
 .woman img {
