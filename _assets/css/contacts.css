@@ -22,7 +22,7 @@
  
 }
 .contacts3 h1{
-    padding-top:0.5em;
+    padding-top:2em;
 }
 .contacts3{
     padding-top:5.5em;
@@ -98,11 +98,19 @@ select{
 }
 
 .footer3{
+    
     background:#4d8eff;
     color:#fff;
-    font-size:17px;
-    padding:1em;
+     position: absolute;
+    top:100%; 
+    width:89.3em;
     text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 17px;
+    padding:1em;
+    width:89em;
+    margin:0 auto;
+    font-weight: 600;
 }
 
 #submit:hover{

@@ -20,7 +20,7 @@ color:#4d8eff;
     font-size: 13px;
     position: absolute;
     top:10%;
-    left:15%;
+    left:16%;
     text-shadow: 1px 0px 0px #29BDCE;
 
 }
@@ -29,22 +29,21 @@ color:#4d8eff;
 .nav {
     display:flex;
     font-size: 18px;
-    align-items: center;
-    padding-top:0.8em;
+    /* align-items: center; */
+    padding-bottom:6em;
+    margin-bottom:5em;
     letter-spacing: 0.1em;
-    margin-left:auto;
-
+    margin-left:20em;
+ 
+    display: flex;
     
     
 }
 .header{
-    width:87em;
+    max-width:87em;
     display:flex;
     margin:1rem auto;
     color:#369;
-    /* padding-bottom:3em; */
-    /* padding-top:4em; */
-    padding-right:4em;
     background:#fff;
     
 
@@ -55,17 +54,14 @@ color:#4d8eff;
 
 .nav ul{
     display:flex;
-    margin-right: 4em;
-    flex:0 0 8em;
     
 
 }
 
 .nav li{
-    /* padding-left:5em; */
-    
     display:flex;
-    
+    font-size:18px;
+    padding-left:0.3em;
     font-weight: 600;
    
     
