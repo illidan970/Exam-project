@@ -1,5 +1,5 @@
 .contacts2{
-    max-width: 87rem;
+    max-width: 80rem;
     margin:0 auto;
     height: 100rem;
     /* padding-top:7em; */
@@ -14,7 +14,7 @@
     margin-top:1em;
     /* padding-top:0.7em; */
     display: block;
-    left:15%;
+    left:10%;
     transform:translate(-50%,-50%);
     background-color:red;
     height: 2px;

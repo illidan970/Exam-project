@@ -13,7 +13,7 @@ color:#4d8eff;
 
 }
 .header p{
-    width:9em;
+    width:12em;
     color:#4d8eff;
     font-family: 'Satisfy', cursive;
     letter-spacing: 0.3em;
@@ -38,12 +38,13 @@ color:#4d8eff;
     
 }
 .header{
+    width:80em;
     display:flex;
     margin-top:1em;
     color:#369;
     /* padding-bottom:3em; */
     /* padding-top:4em; */
-    padding-right:2em;
+    padding-right:4em;
     background:#fff;
     
 
