@@ -1,14 +1,13 @@
 .about{
     width:87rem;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
     margin:0 auto;
     
 }
 
 .main1{
-    position: absolute;
-    top:20%;
+    margin-top:5em;
     line-height: 1.8;
     
 }
@@ -16,7 +15,7 @@
 
 .main1 ul{
     
-    max-width:35em;
+     max-width:35em; 
     
 }
 .main1 h3{
@@ -38,33 +37,33 @@
     border:2px solid #FFF;
     height: auto;
     max-width:25em;
-    top:25%;
-    left:57%;
+    top:28%;
+    right:15%;
     
 }
 
 .woman{
-    max-width: 70em;
+    /* max-width: 70em;
     /* width:100%; */
    
     position: absolute;
     left:52%;
     top:75%
-}
+} 
 
 .woman img{
-    max-width:40em;
-    width:100%;
-    height: 100%;
+    max-width:35em;
+    /* width:100%; */
+    height: auto;
     position: relative;
     border:2px solid #FFF;
 
 }
 
 .article1 h2{
-    /* text-align: center; */
-    padding-top:5em;
-    margin-right:13em;
+    text-align: center;
+     padding-top:5em; 
+    margin-right:13em; 
     /* line-height: 2; */
 }
 
@@ -112,13 +111,13 @@ margin-left: 15em;
 
 
 .hotel2 {
-max-width: 52em;
+max-width: 42em;
 width:100%;
-/* bottom:15%; */
-left:5%;
+bottom:15%;
+/* left:5%; */
 position: absolute;
-left:55%;
-top:80%
+left:45%;
+top:215%
 
 
 }
@@ -128,9 +127,9 @@ top:80%
     width:100%;
     max-width:45em;
     height: auto;
-    position: absolute;
-    left:55%;
-    top:80%
+     position: relative;
+    left:5%;
+    top:0% 
    
     
 }
@@ -139,8 +138,8 @@ top:80%
     
     background:#4d8eff;
     color:#fff;
-     position: absolute;
-    top:325%; 
+      position: absolute;
+    top:290%;  
     width:89.3em;
     text-align: center;
     letter-spacing: 0.3em;
@@ -150,3 +149,4 @@ top:80%
     margin:0 auto;
     font-weight: 600;
 }
+
