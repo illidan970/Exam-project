@@ -538,7 +538,7 @@ select {
   top: 12%;
   left: 7%;
   padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-bottom: 1.5em; }
 
 .posts {
   padding-top: 4em; }
@@ -561,8 +561,11 @@ select {
   margin-top: 2em;
   display: flex; }
 
-.author h5 {
+.author1 h5 {
   margin-left: 0.8em; }
+
+.author1 h4, p {
+  margin-left: 1em; }
 
 .footer3 {
   background: #4d8eff;
@@ -573,7 +576,6 @@ select {
   text-align: center;
   letter-spacing: 0.3em;
   font-size: 17px;
-  padding: 1em;
   margin: 0 auto;
   font-weight: 600; }
 

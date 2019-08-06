@@ -7,7 +7,7 @@
     top:12%;
     left:7%;
     padding-top:1em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 
 }
 
@@ -46,8 +46,12 @@
 
 
 
-.author h5{
+.author1  h5{
 margin-left:0.8em;
+}
+
+.author1 h4,p{
+    margin-left:1em
 }
 
 
@@ -61,7 +65,7 @@ margin-left:0.8em;
     text-align: center;
     letter-spacing: 0.3em;
     font-size: 17px;
-    padding:1em;
+    
     
     margin:0 auto;
     font-weight: 600;
