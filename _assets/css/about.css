@@ -7,8 +7,8 @@
 }
 
 .main1{
-    margin-top:3em;
-    padding-top:5em;
+    position: absolute;
+    top:15%;
     line-height: 1.8;
 }
 
@@ -37,7 +37,7 @@
     border:2px solid #FFF;
     height: auto;
     max-width:25em;
-    top:21%;
+    top:25%;
     left:57%;
     
 }
@@ -115,7 +115,9 @@ max-width: 52em;
 width:100%;
 /* bottom:15%; */
 left:5%;
-position: relative;
+position: absolute;
+left:55%;
+top:80%
 
 
 }
@@ -127,6 +129,7 @@ position: relative;
     position: absolute;
     left:55%;
     top:80%
+   
     
 }
 
