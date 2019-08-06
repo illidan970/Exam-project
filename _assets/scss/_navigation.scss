@@ -1,27 +1,25 @@
 
 .header h1{
-    text-shadow: 2px 1px 2px #29BDCE;
+    text-shadow: 2px 1px 2px var(--main-text-color);
     letter-spacing: 0.3em;
     font-size: 48px;
-    /* font-family: 'Satisfy', cursive; */
-    
-    
-/* margin-left:0.3em; */
+  
 }
+
 .header  a {
 color:#4d8eff;
 
 }
 .header p{
     width:12em;
-    color:#4d8eff;
+    color:var(--main-text-color);
     font-family: 'Satisfy', cursive;
     letter-spacing: 0.3em;
     font-size: 13px;
     position: absolute;
     top:8%;
     left:16%;
-    text-shadow: 1px 0px 0px #29BDCE;
+    text-shadow: 1px 0px 0px var(--main-text-color);
 
 }
 
@@ -78,7 +76,7 @@ a{
 }
 
 nav a:hover{
-    background:#4d8eff;
+    background:var(--main-text-color);
     transition: 0.2s ease-in-out;
     color:#fff;
     padding:0.7em 1.5em;

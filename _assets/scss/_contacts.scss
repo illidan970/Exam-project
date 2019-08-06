@@ -10,7 +10,7 @@
     
     padding-top:1em;
     line-height: 1.7;
-}
+
 
 .contacts3 h1{
     color:red;
@@ -130,7 +130,7 @@ select{
 }
 
 .footer5{
-     background:#4d8eff;
+     background:var(--main-text-color);
     color:#fff;
     text-align: center;
     letter-spacing: 0.3em;
@@ -151,4 +151,5 @@ select{
     cursor: pointer;
     transition-delay: 0.1s;
     transition: 0.5s;
+}
 }

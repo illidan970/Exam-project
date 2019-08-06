@@ -9,7 +9,7 @@
     padding-top:1em;
     padding-bottom: 1.5em;
 
-}
+
 
 
 
@@ -23,14 +23,24 @@
 }
 
 
-.blog ol,ul{
+& ol,ul{
     padding:2em;
 }
 
-.blog h3,h2,h4,p{ 
+& h3,h2,h4,p{ 
     padding-top:1.5em;
 }
+h4{
+    font-size:var(--font-size-2);
+}
 
+h5{
+  font-size: var( --font-size-3)
+}
+
+h2 {
+    font-size:var( --font-size-4)
+}
 
 .author{
     background-image: linear-gradient(to right top, #88c5a0, #94c39b, #9fc098, #a8bd96, #afbb96);
@@ -57,7 +67,7 @@ margin-left:1.2em;
 
 .footer3{
     
-    background:#4d8eff;
+    background:var(--main-text-color);
     color:#fff;
     position: absolute;
     top:420%;  
@@ -70,4 +80,5 @@ margin-left:1.2em;
     
     margin:0 auto;
     font-weight: 600;
+}
 }
