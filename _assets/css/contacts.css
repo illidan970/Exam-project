@@ -50,8 +50,8 @@
 
 .talking img{
     
-    max-width:60em;
-    width:100%;
+    max-width:50em;
+    /* width:100%; */
     position: relative;
     border:2px solid #FFF;
 
@@ -104,7 +104,7 @@ select{
     background:#4d8eff;
     color:#fff;
      position: absolute;
-    top:330%; 
+    top:370%; 
     width:89.3em;
     text-align: center;
     letter-spacing: 0.3em;
