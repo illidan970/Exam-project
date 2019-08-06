@@ -333,7 +333,7 @@ nav a:hover {
   height: auto;
   max-width: 25em;
   top: 5%;
-  right: 25%; }
+  right: 15%; }
 
 .woman {
   /* max-width: 70em;
@@ -352,7 +352,7 @@ nav a:hover {
 .article1 h2 {
   text-align: center;
   padding-top: 5em;
-  margin-right: 13em;
+  margin-right: 11em;
   /* line-height: 2; */ }
 
 .article1 h2:after {
@@ -383,6 +383,9 @@ nav a:hover {
   margin-top: 10em;
   margin-left: 5em; }
 
+.contact1 h3 {
+  color: red; }
+
 .contact1 li {
   list-style: none outside;
   margin-top: 2em; }
@@ -394,7 +397,7 @@ nav a:hover {
   /* left:5%; */
   position: absolute;
   left: 45%;
-  top: 84%; }
+  top: 80%; }
 
 .hotel2 img {
   max-width: 50em;

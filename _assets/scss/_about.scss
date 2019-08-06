@@ -41,7 +41,7 @@
     height: auto;
     max-width:25em;
     top:5%;
-    right:25%;
+    right:15%;
     
 }
 
@@ -66,7 +66,7 @@
 .article1 h2{
     text-align: center;
      padding-top:5em; 
-    margin-right:13em; 
+    margin-right:11em; 
     /* line-height: 2; */
 }
 
@@ -106,7 +106,9 @@ margin-left: 15em;
     margin-top:10em;
     margin-left:5em;
 }
-
+.contact1 h3{
+    color:red;
+}
 
 .contact1 li{
     list-style: none outside;
@@ -122,7 +124,7 @@ bottom:15%;
 /* left:5%; */
 position: absolute;
 left:45%;
-top:84%
+top:80%
 
 
 }
