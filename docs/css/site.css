@@ -548,7 +548,7 @@ select {
 .blog ol, ul {
   padding: 2em; }
 
-.blog h3, h2, h4, p, img {
+.blog h3, h2, h4, p {
   padding-top: 1.5em; }
 
 .author {
