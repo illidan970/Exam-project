@@ -1,11 +1,22 @@
 .contacts2{
-    max-width: 80rem;
+    max-width: 85rem;
     margin:0 auto;
-    height: 80rem;
-
-    /* padding-top:7em; */
-
+    position: absolute;
+    top:15%;
+     padding-top:1.2em; 
+      
+    letter-spacing: 0.07em;
+    
+    
+    padding-top:1em;
+    line-height: 1.7;
 }
+
+.contacts3 h1{
+    color:red;
+}
+
+
 
 .contacts3 p:after{
 
@@ -15,22 +26,26 @@
     margin-top:1em;
     /* padding-top:0.7em; */
     display: block;
-    left:10%;
+    left:16%;
     transform:translate(-50%,-50%);
-    background-color:red;
+    background-color:#000000;
     height: 2px;
     
  
 }
 
 .contacts3{
-    position: absolute;
-    top:15%;
-    left:10%;
+     
+    margin-left:10em;
+    padding-top:1em;
+
+     
 }
 
 .infos{
-    padding-top:0.5em;
+    margin-left:10em;
+    padding-top:1em;
+    line-height: 1.7;
 }
 
 .infos li{
@@ -39,17 +54,17 @@
 
 .talking{
     
-    max-width: 70em;
-     width:100%; 
+    max-width: 80em;
+     /* width:100%;  */
     height: 100%;
     position: absolute;
-    left:40%;
-    top:30%;
+    left:57%;
+    top:10%;
 }
 
 .talking img{
     
-    max-width:50em;
+    max-width:80em;
     /* width:100%; */
     position: relative;
     border:2px solid #FFF;
@@ -58,8 +73,9 @@
 
 form{
     text-align: center;
-    padding-top:5em;
-    margin:1em;
+    margin-top:10em;
+    margin-left:24em;
+    /* position: absolute; */
     
 }
 
@@ -70,19 +86,20 @@ label{
 }
 
 #email{
-    padding:0.7em 21.2em;
+    
 }
 
 #Phone{
-    padding:0.7em 21.5em; 
+    
 
 }
 
 
 input{
-    padding:0.5em 20em;
+    padding:0.9em 20em;
     margin-top:2em;
-    padding-top: 2em;
+    margin-bottom:1em;
+    
 
 }
 
@@ -90,7 +107,9 @@ select{
     text-align: start;
     padding:0.5em 1em;
     font-size:17px;
-    margin-top:2em;
+     margin-top:1em; 
+     margin-bottom:2em;
+
 
 }
 
@@ -99,20 +118,20 @@ select{
 }
 
 .footer5{
-    
-    background:#4d8eff;
+     background:#4d8eff;
     color:#fff;
-    //  position: absolute;
-    // top:0%; 
-    width:89.3em;
     text-align: center;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding:1em;
     width:89em;
-    margin:0 auto;
+    position: absolute;
+    top:110%;
     font-weight: 600;
 }
+
+    
+
 
 #submit:hover{
     background:#4d8eff;
