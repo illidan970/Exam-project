@@ -435,9 +435,10 @@ nav a:hover {
   background-color: red;
   height: 2px; }
 
-.contacts3 h1 {
+.contacts3 {
   position: absolute;
-  top: 15%; }
+  top: 15%;
+  left: 10%; }
 
 .infos {
   padding-top: 0.5em; }
@@ -492,7 +493,7 @@ select {
   background: #4d8eff;
   color: #fff;
   position: absolute;
-  top: 250%;
+  top: 300%;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
