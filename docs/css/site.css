@@ -310,7 +310,8 @@ nav a:hover {
 
 .main1 {
   margin-bottom: 8em;
-  line-height: 1.8; }
+  line-height: 1.8;
+  padding-bottom: 5em; }
 
 .main1 ul {
   max-width: 35em; }
@@ -330,7 +331,7 @@ nav a:hover {
   border: 2px solid #FFF;
   height: auto;
   max-width: 25em;
-  top: 28%;
+  top: 34%;
   right: 15%; }
 
 .woman {
@@ -338,7 +339,7 @@ nav a:hover {
     /* width:100%; */
   position: absolute;
   left: 52%;
-  top: 75%; }
+  top: 80%; }
 
 .woman img {
   max-width: 35em;
@@ -406,7 +407,7 @@ nav a:hover {
   background: #4d8eff;
   color: #fff;
   position: absolute;
-  top: 330%;
+  top: 345%;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
