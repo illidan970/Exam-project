@@ -309,7 +309,7 @@ nav a:hover {
   margin: 0 auto; }
 
 .main1 {
-  margin-top: 5em;
+  margin-bottom: 8em;
   line-height: 1.8; }
 
 .main1 ul {
@@ -391,7 +391,7 @@ nav a:hover {
   /* left:5%; */
   position: absolute;
   left: 45%;
-  top: 215%; }
+  top: 240%; }
 
 .hotel2 img {
   max-width: 50em;
@@ -406,7 +406,7 @@ nav a:hover {
   background: #4d8eff;
   color: #fff;
   position: absolute;
-  top: 290%;
+  top: 330%;
   width: 89.3em;
   text-align: center;
   letter-spacing: 0.3em;
