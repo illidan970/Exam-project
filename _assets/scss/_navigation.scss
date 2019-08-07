@@ -10,6 +10,7 @@
 color:#4d8eff;
 
 }
+
 .header p{
     width:12em;
     color:var(--main-text-color);
@@ -17,7 +18,7 @@ color:#4d8eff;
     letter-spacing: 0.3em;
     font-size: 13px;
     position: absolute;
-    top:8%;
+    top:9.5%;
     left:16%;
     text-shadow: 1px 0px 0px var(--main-text-color);
 
@@ -28,10 +29,11 @@ color:#4d8eff;
     display:flex;
     font-size: 18px;
     /* align-items: center; */
-    padding-bottom:6em;
-    margin-bottom:5em;
+    padding-top:1em;
+    justify-content: space-between;
+    // margin-bottom:8em;
     letter-spacing: 0.1em;
-    margin-left:20em;
+    margin-left:25em;
  
     display: flex;
     
@@ -52,7 +54,7 @@ color:#4d8eff;
 
 .nav ul{
     display:flex;
-    
+    flex:0 0 10em;
 
 }
 
