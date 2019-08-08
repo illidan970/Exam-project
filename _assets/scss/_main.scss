@@ -1,5 +1,5 @@
 .board{
-    width:85rem;
+    width:90rem;
     /* height:150rem; */
     height: auto;
     margin:0 auto;
@@ -205,7 +205,7 @@ opacity: 0.8;
 
 .extras{
     position:absolute;
-    top:440%;
+    top:430%;
     display:column;
     width:30em;
   padding-top:5em;
@@ -271,16 +271,21 @@ top:0%;
 }
 .footer1{
     
-    background:#4d8eff;
-    color:#fff;
-     position: absolute;
-    top:587%; 
-    width:78.5em;
-    text-align: center;
-    letter-spacing: 0.3em;
-    font-size: 17px;
-    padding:1em;
+    // background:#4d8eff;
     
-    margin:0 auto;
-    font-weight: 600;
+    // font-size:18px;
+    position: absolute;
+    // width:90.5em;
+    text-align: center;
+    top:580%;
+    width:83em;
+    padding:1em;
+    // margin-left:2em;
+    
+    // background:var(--main-text-color);
+    color:#000;
+      
+    
+
+    letter-spacing: 0.3em;
 }

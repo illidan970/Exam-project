@@ -130,13 +130,14 @@ select{
 }
 
 .footer5{
-     background:var(--main-text-color);
-    color:#fff;
+    //  background:var(--main-text-color);
+    color:#000;
     text-align: center;
     letter-spacing: 0.3em;
      font-size: 17px;
      padding:1em;
-    width:89.3em;
+     margin-left:23em;
+    // width:89.3em;
     position: absolute;
     top:110%;
     font-weight: 600;
