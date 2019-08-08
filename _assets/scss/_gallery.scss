@@ -1,7 +1,7 @@
 
 .gallery2{
     position: absolute;
-    top: 20%;
+    top: 17%;
 
 
     background:#FDD7ED;
@@ -28,7 +28,7 @@
 }
 
 & img:hover{
-    
+    cursor: pointer;
     transition-delay: 0.1s;
     transition: 0.5s;
     opacity: 0.8;
