@@ -2,7 +2,7 @@
 .header h1{
     text-shadow: 2px 1px 2px var(--main-text-color);
     letter-spacing: 0.3em;
-    font-size: 48px;
+    font-size: 45px;
   
 }
 
@@ -11,29 +11,18 @@ color:#4d8eff;
 
 }
 
-.header p{
-    width:12em;
-    color:var(--main-text-color);
-    font-family: 'Satisfy', cursive;
-    letter-spacing: 0.3em;
-    font-size: 13px;
-    position: absolute;
-    top:11.5%;
-    left:16%;
-    text-shadow: 1px 0px 0px var(--main-text-color);
 
-}
 
 
 .nav {
     display:flex;
-    font-size: 18px;
+    font-size: 16px;
     /* align-items: center; */
     padding-top:1em;
     justify-content: space-between;
     // margin-bottom:8em;
     letter-spacing: 0.1em;
-    margin-left:15.2em;
+    margin-left:12.4em;
  
     
     
@@ -41,9 +30,9 @@ color:#4d8eff;
 }
 
 .header{
-    max-width:75em;
+    
     display:flex;
-    margin:1rem 2.3rem 2rem 3rem;
+    margin:1.7em 1rem 1rem 6em;
     color:#369;
     background:#fff;
     align-items: center;
@@ -55,7 +44,7 @@ color:#4d8eff;
 
 .nav ul{
     display:flex;
-    flex:0 0 11em;
+    flex:0 0 13em;
 
 }
 
