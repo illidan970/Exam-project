@@ -1462,7 +1462,19 @@
 }
 
 
-
+@media(max-width:1366px){
+    .header{
+        
+        
+        display:flex;
+        margin:1em 1rem 1rem 4em;
+        color:#369;
+        background:#fff;
+        align-items: center;
+    
+        
+    }
+}
 
 
 
