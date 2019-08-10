@@ -5,6 +5,7 @@
     line-height: 1.5;
     position: absolute;
     top:12%;
+    font-size:17px;
     left:7%;
     padding-top:1em;
     padding-bottom: 1.5em;
@@ -38,9 +39,7 @@ h5{
   font-size: var( --font-size-3)
 }
 
-h2 {
-    font-size:var( --font-size-4)
-}
+
 
 .author{
     background-image: linear-gradient(to right top, #88c5a0, #94c39b, #9fc098, #a8bd96, #afbb96);
@@ -65,19 +64,3 @@ margin-left:1.2em;
 }
 }
 
-.footer3{
-    
-    // background:#000;
-    color:#000;
-    position: absolute;
-     top:410%;  
-    padding:1em;
-    // width:89.3em;
-    text-align: center;
-    letter-spacing: 0.3em;
-    
-    
-    
-    margin-left:30em ;
-    font-weight: 600;
-}
