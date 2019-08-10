@@ -491,13 +491,17 @@
 }
 
 
+
+
+
+
 @media(max-width:1024px){
     .contacts2{
         max-width: 85rem;
         margin:0 auto;
         position: absolute;
-        top:10%;
-        left:-20%;
+        top:20%;
+        left:-10%;
          padding-top:1.2em; 
           
         letter-spacing: 0.07em;
@@ -820,8 +824,8 @@
             max-width: 85rem;
             margin:0 auto;
             position: absolute;
-            top:10%;
-            left:-20%;
+            top:20%;
+            left:-10%;
              padding-top:1.2em; 
               
             letter-spacing: 0.07em;
@@ -986,7 +990,7 @@
             max-width: 85rem;
             margin:0 auto;
             position: absolute;
-            top:95%;
+            top:125%;
             left:-20%;
              padding-top:1.2em; 
               
@@ -1147,13 +1151,13 @@
     @media(max-width:480px){
         .header{
             position: relative;
-            left:55%;
+            left:30%;
         }
         .contacts2{
             max-width: 85rem;
             margin:0 auto;
             position: absolute;
-            top:95%;
+            top:130%;
             left:-20%;
              padding-top:1.2em; 
               
@@ -1315,19 +1319,21 @@
 
 
     @media(max-width:320px){
-        
+        .header{
+            padding-right:16em;
+        }
         .contacts2{
             max-width: 85rem;
             margin:0 auto;
             position: absolute;
-            top:95%;
+            top:145%;
             left:-20%;
              padding-top:1.2em; 
               
             letter-spacing: 0.07em;
             
             
-            padding-top:1em;
+            padding-top:5em;
             line-height: 1.7;
         
         

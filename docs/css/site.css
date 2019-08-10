@@ -1469,7 +1469,7 @@ nav a:hover {
       top: 22%;
       text-transform: uppercase;
       height: 100%;
-      width: 63rem; }
+      width: 92rem; }
     .board .welcome1:hover {
       transition-delay: 0.1s;
       transition: 0.5s; }
@@ -1520,7 +1520,7 @@ nav a:hover {
       height: 30em;
       position: absolute;
       top: 163%;
-      left: 65%;
+      left: 95%;
       /* line-height: 1.3; */
       transform: translate(-50%, -50%);
       margin: 0 auto;
@@ -1555,7 +1555,7 @@ nav a:hover {
       transition: 0.5s; }
     .board .pic1 {
       top: 240%;
-      left: 5%;
+      left: 35%;
       position: absolute; }
     .board .pic1 img {
       position: relative;
@@ -1566,7 +1566,7 @@ nav a:hover {
       text-align: center;
       width: 40em;
       top: 330%;
-      left: 61%;
+      left: 91%;
       padding-top: 6em;
       height: 15em;
       line-height: 1.5;
@@ -1598,6 +1598,7 @@ nav a:hover {
       top: 400%;
       display: column;
       width: 20em;
+      left: 40%;
       padding-top: 5em;
       line-height: 1.5; }
     .board .extras h2:nth-child(1) {
@@ -1643,7 +1644,7 @@ nav a:hover {
     position: absolute;
     text-align: center;
     top: 510%;
-    width: 50em;
+    width: 60em;
     padding: 1em;
     color: #000;
     letter-spacing: 0.3em; }
@@ -1698,10 +1699,10 @@ nav a:hover {
       background: linear-gradient(#2d3c4e, transparent), url("../banner1.jpg") center;
       position: absolute;
       background-size: cover;
-      top: 105%;
+      top: 135%;
       text-transform: uppercase;
-      height: 40em;
-      width: 67.5em; }
+      height: 50em;
+      width: 85.5em; }
     .board .welcome1:hover {
       transition-delay: 0.1s;
       transition: 0.5s; }
@@ -1751,8 +1752,8 @@ nav a:hover {
       width: 35em;
       height: 30em;
       position: absolute;
-      top: 260%;
-      left: 87%;
+      top: 290%;
+      left: 107%;
       /* line-height: 1.3; */
       transform: translate(-50%, -50%);
       margin: 0 auto;
@@ -1786,8 +1787,8 @@ nav a:hover {
       transition-delay: 0.1s;
       transition: 0.5s; }
     .board .pic1 {
-      top: 360%;
-      left: 10%;
+      top: 380%;
+      left: 35%;
       position: absolute; }
     .board .pic1 img {
       position: relative;
@@ -1798,7 +1799,7 @@ nav a:hover {
       text-align: center;
       width: 40em;
       top: 500%;
-      left: 90%;
+      left: 105%;
       padding-top: 6em;
       height: 15em;
       line-height: 1.5;
@@ -1828,7 +1829,7 @@ nav a:hover {
     .board .extras {
       position: absolute;
       top: 700%;
-      left: 30%;
+      left: 50%;
       flex-direction: column;
       width: 35em;
       padding-top: 2em;
@@ -1934,10 +1935,10 @@ nav a:hover {
       background: linear-gradient(#2d3c4e, transparent), url("../banner1.jpg") center;
       position: absolute;
       background-size: cover;
-      top: 95%;
+      top: 135%;
       text-transform: uppercase;
-      height: 30em;
-      width: 55.4em; }
+      height: 50em;
+      width: 85.5em; }
     .board .welcome1:hover {
       transition-delay: 0.1s;
       transition: 0.5s; }
@@ -1987,8 +1988,8 @@ nav a:hover {
       width: 35em;
       height: 30em;
       position: absolute;
-      top: 260%;
-      left: 90%;
+      top: 290%;
+      left: 177%;
       /* line-height: 1.3; */
       transform: translate(-50%, -50%);
       margin: 0 auto;
@@ -2007,7 +2008,7 @@ nav a:hover {
       letter-spacing: 1; }
     .board .history a {
       /* margin:1em; */
-      padding: 1em 2em;
+      padding: 1em 3em;
       background: var(--main-text-color);
       color: #fff;
       border-radius: 3px;
@@ -2022,19 +2023,19 @@ nav a:hover {
       transition-delay: 0.1s;
       transition: 0.5s; }
     .board .pic1 {
-      top: 360%;
-      left: 17%;
+      top: 380%;
+      left: 60%;
       position: absolute; }
     .board .pic1 img {
       position: relative;
-      width: 720px;
+      width: 900px;
       height: auto; }
     .board .deluxe {
       position: absolute;
       text-align: center;
       width: 40em;
-      top: 470%;
-      left: 90%;
+      top: 500%;
+      left: 170%;
       padding-top: 6em;
       height: 15em;
       line-height: 1.5;
@@ -2063,8 +2064,8 @@ nav a:hover {
       opacity: 0.8; }
     .board .extras {
       position: absolute;
-      top: 680%;
-      left: 30%;
+      top: 700%;
+      left: 70%;
       flex-direction: column;
       width: 35em;
       padding-top: 2em;
@@ -2082,25 +2083,25 @@ nav a:hover {
       /* color:#294066; */ }
     .board .extras li {
       margin-top: 7em;
-      font-size: 23px;
-      position: relative;
+      font-size: 20px;
       color: #294066;
-      left: 20%;
+      position: relative;
+      left: 40%;
       /* list-style: none; */
       letter-spacing: 0.1em; }
     .board .img1 img {
       position: absolute;
       left: -5%;
-      width: 650px;
+      width: 750px;
       height: auto;
       padding-top: 7em;
-      top: -50%; }
+      top: -70%; }
     .board .extras a {
       position: absolute;
-      left: 31%;
+      left: 45%;
       top: 105%;
       line-height: 2;
-      padding: 0.8em 3em;
+      padding: 0.8em 4em;
       background: #1B74EC;
       color: #fff;
       font-weight: 600; }
@@ -2114,7 +2115,7 @@ nav a:hover {
   .footer1 {
     position: absolute;
     text-align: center;
-    top: 990%;
+    top: 930%;
     width: 50em;
     padding: 2em;
     color: #000;
@@ -2122,14 +2123,14 @@ nav a:hover {
   .header h1 {
     text-shadow: 2px 1px 2px var(--main-text-color);
     letter-spacing: 0.3em;
-    font-size: 55px;
+    font-size: 45px;
     margin-left: 1.4em;
     margin-bottom: 0.5em; }
   .header a {
     color: #4d8eff; }
   .nav {
     display: flex;
-    font-size: 20px;
+    font-size: 17px;
     flex-direction: column;
     letter-spacing: 0.1em; }
   .header {
@@ -2144,7 +2145,7 @@ nav a:hover {
   .nav li {
     margin-right: 5em;
     display: flex;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600; }
   .nav a {
     display: block;
@@ -2715,7 +2716,7 @@ nav a:hover {
     height: auto;
     position: absolute;
     top: 20%;
-    left: -3%; }
+    left: 15%; }
   .main1 {
     line-height: 1.8;
     margin-left: 5em;
@@ -2809,8 +2810,9 @@ nav a:hover {
 @media (max-width: 640px) {
   .header {
     flex-direction: column;
+    padding-right: 20em;
     display: flex;
-    margin: 1em 1rem 1rem 9em;
+    margin: 1em 1rem 1rem 2em;
     color: #369;
     background: #fff;
     align-items: center; }
@@ -2818,13 +2820,15 @@ nav a:hover {
     width: 80rem;
     max-width: 100%;
     height: auto;
+    padding-top: 50em;
+    margin: 0 auto;
     position: absolute;
-    top: 90%;
-    left: -3%; }
+    top: 80%;
+    left: 55%; }
   .main1 {
     line-height: 1.8;
     margin-left: 5em;
-    width: 20em; }
+    width: 25em; }
   .main1 ul {
     max-width: 35em; }
   .main1 h3 {
@@ -2836,21 +2840,25 @@ nav a:hover {
     font-size: 18px;
     font-weight: 500; }
   .pic4 img {
-    position: absolute;
+    position: relative;
     border: 2px solid #FFF;
     height: auto;
-    max-width: 18em;
-    top: 4%;
-    right: -15%; }
+    max-width: 25em;
+    top: 80%;
+    padding-top: 50em;
+    left: 110%; }
   .woman {
-    position: absolute;
-    left: 23%;
-    top: 125%; }
+    position: relative;
+    left: 60%;
+    padding-left: 15em;
+    padding-top: 35em;
+    top: 100%; }
   .woman img {
     max-width: 30em;
     /* width:100%; */
     height: auto;
-    position: relative;
+    position: absolute;
+    top: 100%;
     border: 2px solid #FFF; }
   .article1 h2 {
     text-align: center;
@@ -2875,13 +2883,11 @@ nav a:hover {
     letter-spacing: 0.1em;
     text-align: center;
     width: 35em;
-    position: absolute;
-    top: 160%;
-    left: -20%; }
+    margin-left: 25em; }
   .contact1 {
-    position: absolute;
-    top: 230%;
-    left: -15%; }
+    padding-top: 6em;
+    margin-top: 10em;
+    margin-left: 17em; }
   .contact1 h3 {
     color: red; }
   .contact1 li {
@@ -2893,8 +2899,8 @@ nav a:hover {
     bottom: 15%;
     /* left:5%; */
     position: absolute;
-    left: 60%;
-    top: 300%; }
+    left: 50%;
+    top: 120%; }
   .hotel2 img {
     max-width: 50em;
     width: 100%;
@@ -2906,9 +2912,9 @@ nav a:hover {
     padding: 0.5em; }
   .footer2 {
     color: #000;
-    position: absolute;
-    top: 670%;
-    width: 40em;
+    position: relative;
+    margin-top: 120em;
+    width: 55em;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding: 1em;
@@ -2917,8 +2923,9 @@ nav a:hover {
 @media (max-width: 480px) {
   .header {
     flex-direction: column;
+    padding-right: 20em;
     display: flex;
-    margin: 1em 1rem 1rem 25em;
+    margin: 1em 1rem 1rem 2em;
     color: #369;
     background: #fff;
     align-items: center; }
@@ -2926,13 +2933,15 @@ nav a:hover {
     width: 80rem;
     max-width: 100%;
     height: auto;
+    padding-top: 50em;
+    margin: 0 auto;
     position: absolute;
-    top: 90%;
-    left: -3%; }
+    top: 80%;
+    left: 55%; }
   .main1 {
     line-height: 1.8;
     margin-left: 5em;
-    width: 20em; }
+    width: 25em; }
   .main1 ul {
     max-width: 35em; }
   .main1 h3 {
@@ -2944,21 +2953,25 @@ nav a:hover {
     font-size: 18px;
     font-weight: 500; }
   .pic4 img {
-    position: absolute;
+    position: relative;
     border: 2px solid #FFF;
     height: auto;
-    max-width: 18em;
-    top: 4%;
-    left: 120%; }
+    max-width: 25em;
+    top: 80%;
+    padding-top: 50em;
+    left: 140%; }
   .woman {
-    position: absolute;
-    left: 28%;
-    top: 125%; }
+    position: relative;
+    left: 100%;
+    padding-left: 20em;
+    padding-top: 40em;
+    top: 100%; }
   .woman img {
-    max-width: 35em;
+    max-width: 30em;
     /* width:100%; */
     height: auto;
-    position: relative;
+    position: absolute;
+    top: 100%;
     border: 2px solid #FFF; }
   .article1 h2 {
     text-align: center;
@@ -2983,39 +2996,38 @@ nav a:hover {
     letter-spacing: 0.1em;
     text-align: center;
     width: 35em;
-    position: absolute;
-    top: 160%;
-    left: -25%; }
+    margin-left: 25em; }
   .contact1 {
-    position: absolute;
-    top: 230%;
-    left: -15%; }
+    padding-top: 6em;
+    margin-top: 10em;
+    margin-left: 37em; }
   .contact1 h3 {
     color: red; }
   .contact1 li {
     list-style: none outside;
     margin-top: 2em; }
   .hotel2 {
-    max-width: 40em;
+    max-width: 42em;
     width: 100%;
     bottom: 15%;
     /* left:5%; */
     position: absolute;
-    left: 70%;
-    top: 315%; }
+    left: 150%;
+    top: 120%; }
   .hotel2 img {
-    width: 40em;
+    max-width: 50em;
+    width: 100%;
     max-width: 45em;
     height: auto;
     position: relative;
-    left: -50%; }
+    left: 50%; }
   .pic5 {
     padding: 0.5em; }
   .footer2 {
     color: #000;
-    position: absolute;
-    top: 670%;
-    width: 45em;
+    position: relative;
+    margin-top: 120em;
+    width: 55em;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding: 1em;
@@ -3024,8 +3036,9 @@ nav a:hover {
 @media (max-width: 320px) {
   .header {
     flex-direction: column;
+    padding-right: 20em;
     display: flex;
-    margin: 1em 1rem 1rem 25em;
+    margin: 1em 1rem 1rem 2em;
     color: #369;
     background: #fff;
     align-items: center; }
@@ -3033,13 +3046,15 @@ nav a:hover {
     width: 80rem;
     max-width: 100%;
     height: auto;
+    padding-top: 50em;
+    margin: 0 auto;
     position: absolute;
-    top: 90%;
-    left: -3%; }
+    top: 80%;
+    left: 55%; }
   .main1 {
     line-height: 1.8;
     margin-left: 5em;
-    width: 20em; }
+    width: 25em; }
   .main1 ul {
     max-width: 35em; }
   .main1 h3 {
@@ -3051,21 +3066,25 @@ nav a:hover {
     font-size: 18px;
     font-weight: 500; }
   .pic4 img {
-    position: absolute;
+    position: relative;
     border: 2px solid #FFF;
     height: auto;
-    max-width: 18em;
-    top: 4%;
-    left: 150%; }
+    max-width: 25em;
+    top: 70%;
+    padding-top: 50em;
+    left: 180%; }
   .woman {
-    position: absolute;
-    left: 55%;
-    top: 125%; }
+    position: relative;
+    left: 100%;
+    padding-left: 20em;
+    padding-top: 40em;
+    top: 100%; }
   .woman img {
-    max-width: 35em;
+    max-width: 30em;
     /* width:100%; */
     height: auto;
-    position: relative;
+    position: absolute;
+    top: 100%;
     border: 2px solid #FFF; }
   .article1 h2 {
     text-align: center;
@@ -3090,39 +3109,39 @@ nav a:hover {
     letter-spacing: 0.1em;
     text-align: center;
     width: 35em;
-    position: absolute;
-    top: 160%;
-    left: -25%; }
+    margin-left: 25em; }
   .contact1 {
-    position: absolute;
-    top: 230%;
-    left: -15%; }
+    padding-top: 6em;
+    margin-top: 10em;
+    margin-left: 37em;
+    width: 50em; }
   .contact1 h3 {
     color: red; }
   .contact1 li {
     list-style: none outside;
     margin-top: 2em; }
   .hotel2 {
-    max-width: 40em;
+    max-width: 42em;
     width: 100%;
     bottom: 15%;
     /* left:5%; */
     position: absolute;
-    left: 70%;
-    top: 315%; }
+    left: 150%;
+    top: 120%; }
   .hotel2 img {
-    width: 40em;
+    max-width: 50em;
+    width: 100%;
     max-width: 45em;
     height: auto;
     position: relative;
-    left: -30%; }
+    left: 50%; }
   .pic5 {
     padding: 0.5em; }
   .footer2 {
     color: #000;
-    position: absolute;
-    top: 680%;
-    width: 45em;
+    position: relative;
+    margin-top: 120em;
+    width: 55em;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding: 1em;
@@ -3156,7 +3175,7 @@ nav a:hover {
     height: auto;
     max-width: 25em;
     top: 4%;
-    right: -25%; }
+    right: 5%; }
   .woman {
     position: absolute;
     left: 68%;
@@ -3522,8 +3541,8 @@ nav a:hover {
     max-width: 85rem;
     margin: 0 auto;
     position: absolute;
-    top: 10%;
-    left: -20%;
+    top: 20%;
+    left: -10%;
     padding-top: 1.2em;
     letter-spacing: 0.07em;
     padding-top: 1em;
@@ -3713,8 +3732,8 @@ nav a:hover {
     max-width: 85rem;
     margin: 0 auto;
     position: absolute;
-    top: 10%;
-    left: -20%;
+    top: 20%;
+    left: -10%;
     padding-top: 1.2em;
     letter-spacing: 0.07em;
     padding-top: 1em;
@@ -3813,7 +3832,7 @@ nav a:hover {
     max-width: 85rem;
     margin: 0 auto;
     position: absolute;
-    top: 95%;
+    top: 125%;
     left: -20%;
     padding-top: 1.2em;
     letter-spacing: 0.07em;
@@ -3908,12 +3927,12 @@ nav a:hover {
 @media (max-width: 480px) {
   .header {
     position: relative;
-    left: 55%; }
+    left: 30%; }
   .contacts2 {
     max-width: 85rem;
     margin: 0 auto;
     position: absolute;
-    top: 95%;
+    top: 130%;
     left: -20%;
     padding-top: 1.2em;
     letter-spacing: 0.07em;
@@ -4006,15 +4025,17 @@ nav a:hover {
       transition: 0.5s; } }
 
 @media (max-width: 320px) {
+  .header {
+    padding-right: 16em; }
   .contacts2 {
     max-width: 85rem;
     margin: 0 auto;
     position: absolute;
-    top: 95%;
+    top: 145%;
     left: -20%;
     padding-top: 1.2em;
     letter-spacing: 0.07em;
-    padding-top: 1em;
+    padding-top: 5em;
     line-height: 1.7; }
     .contacts2 .contacts3 h1 {
       color: red; }

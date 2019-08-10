@@ -541,7 +541,7 @@
         // margin:0 auto;
         position: absolute;
         top:20%;
-        left:-3%;
+        left:15%;
         
         // left:80%;
     }
@@ -708,9 +708,9 @@
 @media(max-width:640px){
     .header{
         flex-direction: column;
-        
+        padding-right:20em;
         display:flex;
-        margin:1em 1rem 1rem 9em;
+        margin:1em 1rem 1rem 2em;
         color:#369;
         background:#fff;
         align-items: center;
@@ -718,14 +718,16 @@
         
     }
    
+    
     .about{
         width:80rem;
         max-width: 100%;
         height: auto;
-        // margin:0 auto;
+        padding-top:50em;
+         margin:0 auto;
         position: absolute;
-        top:90%;
-        left:-3%;
+        top:80%;
+        left:55%;
         
         // left:80%;
     }
@@ -733,7 +735,9 @@
     .main1{
         line-height: 1.8;
         margin-left:5em;
-        width:20em;
+        width:25em;
+        
+        // margin-top:50em;
     
         
     }
@@ -754,31 +758,37 @@
         margin-top:2.5em; 
         font-size: 18px;
         font-weight: 500;   
+        // background:blue;
     }
     
     
     
     .pic4 img{
-        position: absolute;
+        position: relative;
         border:2px solid #FFF;
         height: auto;
-        max-width:18em;
-        top:4%;
-        right:-15%;
+        max-width:25em;
+        top:80%;
+        padding-top:50em;
+        // margin-right:80em;
+        left:110%;
         
     }
     
     .woman{
-        position: absolute;
-        left:23%;
-        top:125%;
+        position: relative;
+        left:60%;
+        padding-left:15em;
+        padding-top:35em;
+        top:100%;
     } 
     
     .woman img{
         max-width:30em;
         /* width:100%; */
         height: auto;
-        position: relative;
+        position: absolute;
+        top:100%;
         border:2px solid #FFF;
     
     }
@@ -817,19 +827,15 @@
         // padding-top:4em;
     text-align: center;
     width:35em;
-    position: absolute;
-    top:160%;
-    left:-20%;
     // margin-bottom: 10em;
-    // margin-left: 15em;
+    margin-left: 25em;
     }
     
     .contact1{
-        position: absolute;
-        top:230%;
-        left:-15%;
+        padding-top:6em;
+        margin-top:10em;
+        margin-left:17em;
     }
-    
     .contact1 h3{
         color:red;
     }
@@ -847,8 +853,8 @@
     bottom:15%;
     /* left:5%; */
     position: absolute;
-    left:60%;
-    top:300%;
+    left:50%;
+    top:120%;
     
     
     }
@@ -873,9 +879,10 @@
         
         // background:var(--main-text-color);
         color:#000;
-        position: absolute;
-        top:670%;  
-        width:40em;
+        position: relative;
+        
+        margin-top:120em; 
+        width:55em;
         // text-align: center;
         letter-spacing: 0.3em;
         font-size: 17px;
@@ -905,9 +912,9 @@
 @media(max-width:480px){
     .header{
         flex-direction: column;
-        
+        padding-right:20em;
         display:flex;
-        margin:1em 1rem 1rem 25em;
+        margin:1em 1rem 1rem 2em;
         color:#369;
         background:#fff;
         align-items: center;
@@ -915,14 +922,16 @@
         
     }
    
+    
     .about{
         width:80rem;
         max-width: 100%;
         height: auto;
-        // margin:0 auto;
+        padding-top:50em;
+         margin:0 auto;
         position: absolute;
-        top:90%;
-        left:-3%;
+        top:80%;
+        left:55%;
         
         // left:80%;
     }
@@ -930,7 +939,9 @@
     .main1{
         line-height: 1.8;
         margin-left:5em;
-        width:20em;
+        width:25em;
+        
+        // margin-top:50em;
     
         
     }
@@ -951,31 +962,37 @@
         margin-top:2.5em; 
         font-size: 18px;
         font-weight: 500;   
+        // background:blue;
     }
     
     
     
     .pic4 img{
-        position: absolute;
+        position: relative;
         border:2px solid #FFF;
         height: auto;
-        max-width:18em;
-        top:4%;
-        left:120%;
+        max-width:25em;
+        top:80%;
+        padding-top:50em;
+        // margin-right:80em;
+        left:140%;
         
     }
     
     .woman{
-        position: absolute;
-        left:28%;
-        top:125%;
+        position: relative;
+        left:100%;
+        padding-left:20em;
+        padding-top:40em;
+        top:100%;
     } 
     
     .woman img{
-        max-width:35em;
+        max-width:30em;
         /* width:100%; */
         height: auto;
-        position: relative;
+        position: absolute;
+        top:100%;
         border:2px solid #FFF;
     
     }
@@ -1014,19 +1031,15 @@
         // padding-top:4em;
     text-align: center;
     width:35em;
-    position: absolute;
-    top:160%;
-    left:-25%;
     // margin-bottom: 10em;
-    // margin-left: 15em;
+    margin-left: 25em;
     }
     
     .contact1{
-        position: absolute;
-        top:230%;
-        left:-15%;
+        padding-top:6em;
+        margin-top:10em;
+        margin-left:37em;
     }
-    
     .contact1 h3{
         color:red;
     }
@@ -1039,24 +1052,24 @@
     
     
     .hotel2 {
-    max-width: 40em;
+    max-width: 42em;
     width:100%;
     bottom:15%;
     /* left:5%; */
     position: absolute;
-    left:70%;
-    top:315%;
+    left:150%;
+    top:120%;
     
     
     }
     
     .hotel2 img{
-        // max-width: 100%;
-        width:40em;
+        max-width: 50em;
+        width:100%;
         max-width:45em;
         height: auto;
          position: relative;
-        left:-50%;
+        left:50%;
         
        
         
@@ -1070,9 +1083,10 @@
         
         // background:var(--main-text-color);
         color:#000;
-        position: absolute;
-        top:670%;  
-        width:45em;
+        position: relative;
+        
+        margin-top:120em; 
+        width:55em;
         // text-align: center;
         letter-spacing: 0.3em;
         font-size: 17px;
@@ -1081,7 +1095,6 @@
         // margin:0 auto;
         font-weight: 600;
     }
-
 }
 
 
@@ -1100,9 +1113,9 @@
 @media(max-width:320px){
     .header{
         flex-direction: column;
-        
+        padding-right:20em;
         display:flex;
-        margin:1em 1rem 1rem 25em;
+        margin:1em 1rem 1rem 2em;
         color:#369;
         background:#fff;
         align-items: center;
@@ -1110,14 +1123,16 @@
         
     }
    
+    
     .about{
         width:80rem;
         max-width: 100%;
         height: auto;
-        // margin:0 auto;
+        padding-top:50em;
+         margin:0 auto;
         position: absolute;
-        top:90%;
-        left:-3%;
+        top:80%;
+        left:55%;
         
         // left:80%;
     }
@@ -1125,7 +1140,9 @@
     .main1{
         line-height: 1.8;
         margin-left:5em;
-        width:20em;
+        width:25em;
+        
+        // margin-top:50em;
     
         
     }
@@ -1146,31 +1163,37 @@
         margin-top:2.5em; 
         font-size: 18px;
         font-weight: 500;   
+        // background:blue;
     }
     
     
     
     .pic4 img{
-        position: absolute;
+        position: relative;
         border:2px solid #FFF;
         height: auto;
-        max-width:18em;
-        top:4%;
-        left:150%;
+        max-width:25em;
+        top:70%;
+        padding-top:50em;
+        // margin-right:80em;
+        left:180%;
         
     }
     
     .woman{
-        position: absolute;
-        left:55%;
-        top:125%;
+        position: relative;
+        left:100%;
+        padding-left:20em;
+        padding-top:40em;
+        top:100%;
     } 
     
     .woman img{
-        max-width:35em;
+        max-width:30em;
         /* width:100%; */
         height: auto;
-        position: relative;
+        position: absolute;
+        top:100%;
         border:2px solid #FFF;
     
     }
@@ -1209,19 +1232,16 @@
         // padding-top:4em;
     text-align: center;
     width:35em;
-    position: absolute;
-    top:160%;
-    left:-25%;
     // margin-bottom: 10em;
-    // margin-left: 15em;
+    margin-left: 25em;
     }
     
     .contact1{
-        position: absolute;
-        top:230%;
-        left:-15%;
+        padding-top:6em;
+        margin-top:10em;
+        margin-left:37em;
+        width:50em;
     }
-    
     .contact1 h3{
         color:red;
     }
@@ -1234,24 +1254,24 @@
     
     
     .hotel2 {
-    max-width: 40em;
+    max-width: 42em;
     width:100%;
     bottom:15%;
     /* left:5%; */
     position: absolute;
-    left:70%;
-    top:315%;
+    left:150%;
+    top:120%;
     
     
     }
     
     .hotel2 img{
-        // max-width: 100%;
-        width:40em;
+        max-width: 50em;
+        width:100%;
         max-width:45em;
         height: auto;
          position: relative;
-        left:-30%;
+        left:50%;
         
        
         
@@ -1265,9 +1285,10 @@
         
         // background:var(--main-text-color);
         color:#000;
-        position: absolute;
-        top:680%;  
-        width:45em;
+        position: relative;
+        
+        margin-top:120em; 
+        width:55em;
         // text-align: center;
         letter-spacing: 0.3em;
         font-size: 17px;
@@ -1343,7 +1364,7 @@
         height: auto;
         max-width:25em;
         top:4%;
-        right:-25%;
+        right:5%;
         
     }
     
