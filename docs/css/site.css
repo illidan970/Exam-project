@@ -2171,7 +2171,7 @@ nav a:hover {
       background: linear-gradient(#2d3c4e, transparent), url("../banner1.jpg") center;
       position: absolute;
       background-size: cover;
-      top: 105%;
+      top: 125%;
       text-transform: uppercase;
       height: 30em;
       width: 50em; }
