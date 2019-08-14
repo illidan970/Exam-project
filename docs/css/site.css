@@ -9,7 +9,6 @@
 
 .nav {
   display: flex;
-  font-size: 16px;
   /* align-items: center; */
   padding-top: 1em;
   justify-content: space-between;
@@ -17,6 +16,8 @@
   margin-left: 12.4em; }
 
 .header {
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s;
   display: flex;
   margin: 1.7em 1rem 1rem 6em;
   color: #369;
@@ -25,11 +26,15 @@
 
 .nav ul {
   display: flex;
-  flex: 0 0 13em; }
+  flex: 0 0 13em;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: bounce;
+          animation-name: bounce; }
 
 .nav li {
   display: flex;
-  font-size: 18px;
+  color: #4d8eff;
   padding-left: 0.3em;
   font-weight: 600; }
 
@@ -46,8 +51,7 @@ nav a:hover {
   transition: 0.2s ease-in-out;
   color: #fff;
   padding: 0.7em 1.5em;
-  border: 1px transparent #4d8eff;
-  border-radius: 5px; }
+  border: 1px transparent #4d8eff; }
 
 .board {
   width: 80rem;
@@ -61,10 +65,9 @@ nav a:hover {
     top: 22%;
     text-transform: uppercase;
     height: 100%;
+    -webkit-animation: bounce 2s;
+            animation: bounce 2s;
     width: 80.3rem; }
-  .board .welcome1:hover {
-    transition-delay: 0.1s;
-    transition: 0.5s; }
   .board .welcome1 p {
     text-align: center;
     font-size: 20px;
@@ -211,6 +214,8 @@ nav a:hover {
   .board .img1 img {
     position: absolute;
     left: 120%;
+    -webkit-animation: bounce 2s;
+            animation: bounce 2s;
     height: auto;
     padding-top: 7em;
     top: 0%; }
@@ -246,7 +251,9 @@ nav a:hover {
   height: auto;
   margin: 0 auto;
   position: absolute;
-  top: 23%; }
+  top: 23%;
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s; }
 
 .main1 {
   line-height: 1.8;
@@ -368,6 +375,8 @@ nav a:hover {
   top: 20%;
   padding-top: 1.2em;
   letter-spacing: 0.07em;
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s;
   padding-top: 1em;
   line-height: 1.7; }
   .contacts2 .contacts3 h1 {
@@ -464,6 +473,8 @@ nav a:hover {
   font-size: 17px;
   left: 7%;
   padding-top: 1em;
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s;
   padding-bottom: 1.5em; }
   .blog .posts {
     padding-top: 4em; }
@@ -493,6 +504,8 @@ nav a:hover {
 .gallery2 {
   position: absolute;
   top: 17%;
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s;
   background: #FDD7ED;
   margin: 0 auto;
   max-width: 100%;
@@ -542,7 +555,12 @@ nav a:hover {
       text-transform: uppercase;
       height: 100%;
       width: 80.3rem; }
-    .board .welcome1:hover {
+    .board .welcome1 a:hover {
+      border-radius: 50px;
+      color: #4d8eff;
+      border: 1px solid var(--main-text-color);
+      background: #fff;
+      font-weight: 600;
       transition-delay: 0.1s;
       transition: 0.5s; }
     .board .welcome1 p {
@@ -581,12 +599,6 @@ nav a:hover {
       left: 51%;
       opacity: 0.9;
       transform: translate(-50%, -50%); }
-    .board .welcome1 a:hover {
-      opacity: 1;
-      background: #fff;
-      color: var(--main-text-color);
-      transition: 0.2s;
-      transition-delay: 0.02s; }
     .board .history {
       width: 45em;
       height: 30em;
@@ -619,6 +631,7 @@ nav a:hover {
       font-weight: 600;
       font-size: 17px; }
     .board .history a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -704,6 +717,7 @@ nav a:hover {
       color: #fff;
       font-weight: 600; }
     .board .extras a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -774,9 +788,6 @@ nav a:hover {
       text-transform: uppercase;
       height: 100%;
       width: 80.3rem; }
-    .board .welcome1:hover {
-      transition-delay: 0.1s;
-      transition: 0.5s; }
     .board .welcome1 p {
       text-align: center;
       font-size: 20px;
@@ -814,11 +825,13 @@ nav a:hover {
       opacity: 0.9;
       transform: translate(-50%, -50%); }
     .board .welcome1 a:hover {
-      opacity: 1;
+      border-radius: 50px;
+      color: #4d8eff;
+      border: 1px solid var(--main-text-color);
       background: #fff;
-      color: var(--main-text-color);
-      transition: 0.2s;
-      transition-delay: 0.02s; }
+      font-weight: 600;
+      transition-delay: 0.1s;
+      transition: 0.5s; }
     .board .history {
       width: 45em;
       height: 30em;
@@ -851,6 +864,7 @@ nav a:hover {
       font-weight: 600;
       font-size: 17px; }
     .board .history a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -936,6 +950,7 @@ nav a:hover {
       color: #fff;
       font-weight: 600; }
     .board .extras a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -1006,9 +1021,6 @@ nav a:hover {
       text-transform: uppercase;
       height: 100%;
       width: 63rem; }
-    .board .welcome1:hover {
-      transition-delay: 0.1s;
-      transition: 0.5s; }
     .board .welcome1 p {
       text-align: center;
       font-size: 20px;
@@ -1046,11 +1058,13 @@ nav a:hover {
       opacity: 0.9;
       transform: translate(-50%, -50%); }
     .board .welcome1 a:hover {
-      opacity: 1;
+      border-radius: 50px;
+      color: #4d8eff;
+      border: 1px solid var(--main-text-color);
       background: #fff;
-      color: var(--main-text-color);
-      transition: 0.2s;
-      transition-delay: 0.02s; }
+      font-weight: 600;
+      transition-delay: 0.1s;
+      transition: 0.5s; }
     .board .history {
       width: 45em;
       height: 30em;
@@ -1083,6 +1097,7 @@ nav a:hover {
       font-weight: 600;
       font-size: 17px; }
     .board .history a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -1169,6 +1184,7 @@ nav a:hover {
       color: #fff;
       font-weight: 600; }
     .board .extras a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -1178,7 +1194,7 @@ nav a:hover {
   .footer1 {
     position: absolute;
     text-align: center;
-    top: 510%;
+    top: 560%;
     width: 50em;
     padding: 1em;
     color: #000;
@@ -1195,8 +1211,7 @@ nav a:hover {
     /* align-items: center; */
     padding-top: 1em;
     justify-content: space-between;
-    letter-spacing: 0.1em;
-    margin-left: 10.4em; }
+    letter-spacing: 0.1em; }
   .header {
     display: flex;
     margin: 1em 1rem 1rem 1em;
@@ -1205,10 +1220,10 @@ nav a:hover {
     align-items: center; }
   .nav ul {
     display: flex;
-    flex: 0 0 5em; }
+    flex: 0 0 4em; }
   .nav li {
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600; }
   .nav a {
     display: block;
@@ -1238,9 +1253,6 @@ nav a:hover {
       text-transform: uppercase;
       height: 100%;
       width: 63rem; }
-    .board .welcome1:hover {
-      transition-delay: 0.1s;
-      transition: 0.5s; }
     .board .welcome1 p {
       text-align: center;
       font-size: 20px;
@@ -1278,11 +1290,13 @@ nav a:hover {
       opacity: 0.9;
       transform: translate(-50%, -50%); }
     .board .welcome1 a:hover {
-      opacity: 1;
+      border-radius: 50px;
+      color: #4d8eff;
+      border: 1px solid var(--main-text-color);
       background: #fff;
-      color: var(--main-text-color);
-      transition: 0.2s;
-      transition-delay: 0.02s; }
+      font-weight: 600;
+      transition-delay: 0.1s;
+      transition: 0.5s; }
     .board .history {
       width: 45em;
       height: 30em;
@@ -1315,6 +1329,7 @@ nav a:hover {
       font-weight: 600;
       font-size: 17px; }
     .board .history a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -1410,7 +1425,7 @@ nav a:hover {
   .footer1 {
     position: absolute;
     text-align: center;
-    top: 550%;
+    top: 580%;
     width: 50em;
     padding: 1em;
     color: #000;
@@ -1470,9 +1485,6 @@ nav a:hover {
       text-transform: uppercase;
       height: 100%;
       width: 92rem; }
-    .board .welcome1:hover {
-      transition-delay: 0.1s;
-      transition: 0.5s; }
     .board .welcome1 p {
       text-align: center;
       font-size: 20px;
@@ -1510,11 +1522,13 @@ nav a:hover {
       opacity: 0.9;
       transform: translate(-50%, -50%); }
     .board .welcome1 a:hover {
-      opacity: 1;
+      border-radius: 50px;
+      color: #4d8eff;
+      border: 1px solid var(--main-text-color);
       background: #fff;
-      color: var(--main-text-color);
-      transition: 0.2s;
-      transition-delay: 0.02s; }
+      font-weight: 600;
+      transition-delay: 0.1s;
+      transition: 0.5s; }
     .board .history {
       width: 45em;
       height: 30em;
@@ -1547,6 +1561,7 @@ nav a:hover {
       font-weight: 600;
       font-size: 17px; }
     .board .history a:hover {
+      border-radius: 50px;
       color: #4d8eff;
       border: 1px solid var(--main-text-color);
       background: #fff;
@@ -1939,9 +1954,6 @@ nav a:hover {
       text-transform: uppercase;
       height: 50em;
       width: 85.5em; }
-    .board .welcome1:hover {
-      transition-delay: 0.1s;
-      transition: 0.5s; }
     .board .welcome1 p {
       text-align: center;
       font-size: 17px;
@@ -2617,8 +2629,8 @@ nav a:hover {
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: 15%;
-    left: -3%; }
+    top: 23%;
+    left: 3%; }
   .main1 {
     line-height: 1.8;
     margin-left: 5em;
@@ -2639,10 +2651,10 @@ nav a:hover {
     height: auto;
     max-width: 25em;
     top: 4%;
-    right: 1%; }
+    right: -15%; }
   .woman {
     position: absolute;
-    left: 53%;
+    left: 71%;
     top: 25%; }
   .woman img {
     max-width: 30em;
@@ -2672,11 +2684,12 @@ nav a:hover {
   .article1 {
     letter-spacing: 0.1em;
     text-align: center;
-    width: 35em; }
+    width: 35em;
+    margin-left: 20em; }
   .contact1 {
     padding-top: 6em;
     margin-top: 10em;
-    margin-left: 17em; }
+    margin-left: 25em; }
   .contact1 h3 {
     color: red; }
   .contact1 li {
@@ -2693,17 +2706,16 @@ nav a:hover {
   .hotel2 img {
     max-width: 50em;
     width: 100%;
-    max-width: 45em;
     height: auto;
     position: relative;
-    left: -50%; }
+    left: -30%; }
   .pic5 {
     padding: 0.5em; }
   .footer2 {
     color: #000;
     position: absolute;
-    top: 290%;
-    width: 55em;
+    top: 460%;
+    width: 75em;
     letter-spacing: 0.3em;
     font-size: 17px;
     padding: 1em;
@@ -4444,7 +4456,7 @@ nav a:hover {
       width: 40em; }
   .footer3 {
     position: absolute;
-    top: 240%;
+    top: 425%;
     margin-left: 23em;
     width: 40em; } }
 
@@ -4678,6 +4690,26 @@ nav a:hover {
     top: 630%;
     margin-left: 23em;
     width: 40em; } }
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: scale(0.1);
+    opacity: 0; }
+  60% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(1); } }
+
+@keyframes bounce {
+  0% {
+    transform: scale(0.1);
+    opacity: 0; }
+  60% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(1); } }
 
 *, *:before, *:after {
   padding: 0;

@@ -1,0 +1,11 @@
+
+   @mixin hover {
+    border-radius: 50px;
+    color:#4d8eff;
+    border:1px solid var(--main-text-color);
+    background:#fff;
+    font-weight: 600;
+ 
+    transition-delay: 0.1s;
+    transition: 0.5s;
+   }

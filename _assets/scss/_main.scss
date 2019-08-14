@@ -1,4 +1,4 @@
-.board{
+    .board{
     width:80rem;
     /* height:150rem; */
     height: auto;
@@ -17,17 +17,17 @@
     // margin:0 auto;
     height: 100%;
     // left:40%;
+    animation: bounce 2s;
+    
+    
    width:80.3rem ;
     
 
 }
 
 
-.welcome1:hover{
-    
-    transition-delay: 0.1s;
-    transition: 0.5s;
-}
+
+
 
 
 
@@ -89,6 +89,7 @@
 
 
 .history{
+    
     width:45em;
     height: 30em;
     position: absolute;
@@ -142,6 +143,7 @@
     top:240%;
     left:17%;
     position: absolute;
+    
 }
 
 
@@ -150,12 +152,14 @@
     width:1000px;
     height: auto;
     
+    
 
 }
 
 
 
 .deluxe{
+
 position: absolute;
 text-align: center;
 width:40em;
@@ -203,6 +207,7 @@ opacity: 0.8;
 }
 
 .extras{
+    
     position:absolute;
     top:430%;
     display:column;
@@ -241,7 +246,7 @@ opacity: 0.8;
 .img1 img{
 position: absolute;
 left:120%;
-
+animation: bounce 2s;
 height: auto;
 padding-top:7em;
 top:0%;
