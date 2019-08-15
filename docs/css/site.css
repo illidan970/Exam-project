@@ -14,8 +14,8 @@
   letter-spacing: 0.1em; }
 
 .header {
-  -webkit-animation: bounce 2s;
-          animation: bounce 2s;
+  -webkit-animation: header 0.1s;
+          animation: header 0.1s;
   display: flex;
   color: #369;
   background: #fff;
@@ -416,7 +416,7 @@ nav a:hover {
     height: auto;
     position: absolute;
     left: 61%;
-    top: 28%; }
+    top: 23%; }
   .contacts2 .talking2 img {
     max-width: 40em;
     width: 100%;
@@ -425,7 +425,7 @@ nav a:hover {
     border: 2px solid #FFF; }
   .contacts2 form {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 20em;
     margin-left: 21em;
     /* position: absolute; */ }
   .contacts2 label {
@@ -4711,6 +4711,26 @@ nav a:hover {
     opacity: 1; }
   100% {
     transform: scale(1); } }
+
+@-webkit-keyframes header {
+  0% {
+    transform: translateY(0.1);
+    opacity: 0; }
+  60% {
+    transform: translateY(0.8);
+    opacity: 1; }
+  100% {
+    transform: translateY(1); } }
+
+@keyframes header {
+  0% {
+    transform: translateY(0.1);
+    opacity: 0; }
+  60% {
+    transform: translateY(0.8);
+    opacity: 1; }
+  100% {
+    transform: translateY(1); } }
 
 *, *:before, *:after {
   padding: 0;
