@@ -70,9 +70,10 @@ nav a:hover{
         width:87rem;
         margin:0 auto;
         line-height: 1.5;
-        position: absolute;
-        top:12%;
-        left:7%;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 800px;
+        grid-gap: 10px;
         padding-top:1em;
         padding-bottom: 1.5em;
     
@@ -81,7 +82,10 @@ nav a:hover{
       
     
     .posts{
-        padding-top:4em;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 600px;
+    
     
     }
     
@@ -209,9 +213,10 @@ nav a:hover{
         width:87rem;
         margin:0 auto;
         line-height: 1.5;
-        position: absolute;
-        top:12%;
-        left:7%;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 800px;
+        grid-gap: 10px;
         padding-top:1em;
         padding-bottom: 1.5em;
     
@@ -219,10 +224,10 @@ nav a:hover{
     
       
     
-    .posts{
-        padding-top:4em;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 600px;
     
-    }
     
     .posts article{
         padding-top:2em;
@@ -361,21 +366,24 @@ nav a:hover{
  }
    
      .blog{
-         width:87rem;
-         margin:0 auto;
-         line-height: 1.5;
-         position: absolute;
-         top:12%;
-         left:7%;
-         padding-top:1em;
-         padding-bottom: 1.5em;
-     
+        width:87rem;
+        margin:0 auto;
+        line-height: 1.5;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 800px;
+        grid-gap: 10px;
+        padding-top:1em;
+        padding-bottom: 1.5em;
      
      
        
      
      .posts{
-         padding-top:4em;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 600px;
+    
      
      }
      
@@ -502,12 +510,13 @@ nav a:hover{
     }
       
         .blog{
-            width:80rem;
+            width:87rem;
             margin:0 auto;
             line-height: 1.5;
-            position: absolute;
-            top:12%;
-            left:7%;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 800px;
+            grid-gap: 10px;
             padding-top:1em;
             padding-bottom: 1.5em;
         
@@ -644,15 +653,15 @@ nav a:hover{
     }
       
         .blog{
-            width:80rem;
+            width:87rem;
             margin:0 auto;
             line-height: 1.5;
-            position: absolute;
-            top:12%;
-            left:20%;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 800px;
+            grid-gap: 10px;
             padding-top:1em;
             padding-bottom: 1.5em;
-        
         
         
           
@@ -743,12 +752,13 @@ nav a:hover{
 }
 
     .blog{
-        width:80rem;
+        width:87rem;
         margin:0 auto;
         line-height: 1.5;
-        position: absolute;
-        top:170%;
-        left:25%;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 800px;
+        grid-gap: 10px;
         padding-top:1em;
         padding-bottom: 1.5em;
     
@@ -756,8 +766,10 @@ nav a:hover{
     
       
     
-    .posts{
-        padding-top:4em;
+    .posts{ 
+         display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows: 600px;
     
     }
     
@@ -837,12 +849,13 @@ nav a:hover{
     }
     
         .blog{
-            width:80rem;
+            width:87rem;
             margin:0 auto;
             line-height: 1.5;
-            position: absolute;
-            top:170%;
-            left:50%;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 800px;
+            grid-gap: 10px;
             padding-top:1em;
             padding-bottom: 1.5em;
         
@@ -851,7 +864,10 @@ nav a:hover{
           
         
         .posts{
-            padding-top:4em;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 600px;
+        
         
         }
         
@@ -935,12 +951,13 @@ nav a:hover{
     }
     
         .blog{
-            width:80rem;
+            width:87rem;
             margin:0 auto;
             line-height: 1.5;
-            position: absolute;
-            top:170%;
-            left:20%;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 800px;
+            grid-gap: 10px;
             padding-top:1em;
             padding-bottom: 1.5em;
         
@@ -949,7 +966,10 @@ nav a:hover{
           
         
         .posts{
-            padding-top:4em;
+            display: grid;
+            grid-template-columns:1fr  ;
+            grid-template-rows: 600px;
+        
         
         }
         

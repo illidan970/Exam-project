@@ -1,12 +1,16 @@
 
 .blog{
-    width:87rem;
+    width:80rem;
     margin:0 auto;
     line-height: 1.5;
-    position: absolute;
+    // position: absolute;
     top:12%;
     font-size:17px;
+    
     left:7%;
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr  ;
+    grid-template-rows: 300px;
     padding-top:1em;
     animation: bounce 2s;
     padding-bottom: 1.5em;
