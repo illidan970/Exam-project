@@ -7,20 +7,21 @@
     
 .nav {
     display:flex;
+    // background: #000;
     font-size: 16px;
     /* align-items: center; */
     padding-top:1em;
     justify-content: space-between;
     // margin-bottom:8em;
     letter-spacing: 0.1em;
-    margin-left:12.4em;
+    // margin-left:2em;
  
 }
 
 .header{
     
     display:flex;
-    margin:1.7em 1rem 1rem 6em;
+    margin:1.7em 1rem 1rem 5em;
     color:#369;
     background:#fff;
     width:70rem;
@@ -572,7 +573,7 @@ nav a:hover{
         }
         .footer3{
             position: absolute;
-            top:425%;
+            top:500%;
             margin-left:23em;
             width:40em;
            //  margin-top:10em;

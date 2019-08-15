@@ -305,7 +305,7 @@
         justify-content: space-between;
         // margin-bottom:8em;
         letter-spacing: 0.1em;
-        margin-left:12.4em;
+        // margin-left:12.4em;
      
         
         
@@ -327,15 +327,17 @@
     
     .nav ul{
         display:flex;
-        flex:0 0 14em;
+        flex:0 0 5em;
     
     }
     
     .nav li{
         display:flex;
         font-size:18px;
+         margin-right:2em;
         padding-left:0.3em;
         font-weight: 600;
+
        
         
     }
@@ -716,7 +718,7 @@
             display:flex;
             margin:1em 1rem 1rem 10em;
             color:#369;
-            background:#fff;
+            background:#333;
             align-items: center;
         
             
@@ -726,7 +728,7 @@
         
         .nav ul{
             display:flex;
-            flex:0 0 13em;
+            flex:0 0 10em;
         
         }
         

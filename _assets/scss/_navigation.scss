@@ -18,10 +18,11 @@
     display:flex;
     /* align-items: center; */
     padding-top:1em;
-    justify-content: space-between;
+    // justify-content: space-between;
     // margin-bottom:8em;
     letter-spacing: 0.1em;
-    margin-left:12.4em;
+    // margin-left:12.4em;
+    
  
     
     
@@ -31,10 +32,12 @@
 .header{
     animation: bounce 2s;
     display:flex;
-    margin:1.7em 1rem 1rem 6em;
+    // margin:1.7em 1rem 1rem 6em;
     color:#369;
+    // margin-left:1em;
     background:#fff;
     align-items: center;
+    // width:40em;
 
     
 }
@@ -42,8 +45,11 @@
 
 
 .nav ul{
+
+    // padding-right: 3em;
+    left:-10%;
     display:flex;
-    flex:0 0 13em;
+    // flex:0 0 10em;
     animation-duration: 2s;
     animation-name: bounce;
 
@@ -53,8 +59,9 @@
     
     display:flex;
     color:#4d8eff;
-    padding-left:0.3em;
+    // padding-left:0.3em;
     font-weight: 600;
+    // margin-right:5em;
    
     
 }
@@ -79,7 +86,7 @@ a{
      
  }
 
-
+ 
 
 
  

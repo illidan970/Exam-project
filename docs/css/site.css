@@ -11,22 +11,19 @@
   display: flex;
   /* align-items: center; */
   padding-top: 1em;
-  justify-content: space-between;
-  letter-spacing: 0.1em;
-  margin-left: 12.4em; }
+  letter-spacing: 0.1em; }
 
 .header {
   -webkit-animation: bounce 2s;
           animation: bounce 2s;
   display: flex;
-  margin: 1.7em 1rem 1rem 6em;
   color: #369;
   background: #fff;
   align-items: center; }
 
 .nav ul {
+  left: -10%;
   display: flex;
-  flex: 0 0 13em;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-name: bounce;
@@ -35,7 +32,6 @@
 .nav li {
   display: flex;
   color: #4d8eff;
-  padding-left: 0.3em;
   font-weight: 600; }
 
 .nav a {
@@ -744,8 +740,7 @@ nav a:hover {
     /* align-items: center; */
     padding-top: 1em;
     justify-content: space-between;
-    letter-spacing: 0.1em;
-    margin-left: 12.4em; }
+    letter-spacing: 0.1em; }
   .header {
     display: flex;
     margin: 1em 1rem 1rem 10em;
@@ -754,10 +749,11 @@ nav a:hover {
     align-items: center; }
   .nav ul {
     display: flex;
-    flex: 0 0 14em; }
+    flex: 0 0 5em; }
   .nav li {
     display: flex;
     font-size: 18px;
+    margin-right: 2em;
     padding-left: 0.3em;
     font-weight: 600; }
   .nav a {
@@ -983,11 +979,11 @@ nav a:hover {
     display: flex;
     margin: 1em 1rem 1rem 10em;
     color: #369;
-    background: #fff;
+    background: #333;
     align-items: center; }
   .nav ul {
     display: flex;
-    flex: 0 0 13em; }
+    flex: 0 0 10em; }
   .nav li {
     display: flex;
     font-size: 18px;
@@ -2623,6 +2619,12 @@ nav a:hover {
     margin: 0 auto;
     font-weight: 600; } }
 
+.header {
+  display: flex;
+  color: #369;
+  background: #333;
+  align-items: center; }
+
 @media (max-width: 1024px) {
   .about {
     width: 80rem;
@@ -4144,11 +4146,10 @@ nav a:hover {
     /* align-items: center; */
     padding-top: 1em;
     justify-content: space-between;
-    letter-spacing: 0.1em;
-    margin-left: 12.4em; }
+    letter-spacing: 0.1em; }
   .header {
     display: flex;
-    margin: 1.7em 1rem 1rem 6em;
+    margin: 1.7em 1rem 1rem 5em;
     color: #369;
     background: #fff;
     width: 70rem;
@@ -4456,7 +4457,7 @@ nav a:hover {
       width: 40em; }
   .footer3 {
     position: absolute;
-    top: 425%;
+    top: 500%;
     margin-left: 23em;
     width: 40em; } }
 
